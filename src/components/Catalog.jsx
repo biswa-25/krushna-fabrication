@@ -59,19 +59,19 @@ export default function Catalog() {
   const currentItem = activeImageIndex !== null ? filteredItems[activeImageIndex] : null;
 
   return (
-    <section id="catalog" className="py-20 lg:py-28 bg-white relative border-b border-steel-200/80">
+    <section id="catalog" className="py-20 lg:py-28 bg-cardDark-950 industrial-spark-pattern relative border-b border-amber-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 text-brand-blue text-xs uppercase tracking-wider font-bold mb-3">
-            <Sparkles className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs uppercase tracking-wider font-bold mb-3">
+            <Sparkles className="w-3.5 h-3.5 text-spark-gold" />
             <span>{t.catalog.badge}</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-steel-900 tracking-tight mb-3">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight mb-3">
             {t.catalog.heading}
           </h2>
-          <p className="text-sm sm:text-base text-steel-600 font-normal">
+          <p className="text-sm sm:text-base text-slate-300 font-normal">
             {t.catalog.subheading}
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function Catalog() {
         {/* Category Filter Tabs */}
         <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
           {t.catalog.categories.map((category, idx) => {
-            const rawCategory = ["All", "Main Gates", "Doors", "Railings", "Windows", "PVC & Fiber", "Sheds & Welding"][idx];
+            const rawCategory = ["All", "Steel Gates", "Doors", "Grills", "Upstairs Railing", "Workshop"][idx];
             const isActive = activeCategory === rawCategory;
 
             return (
@@ -91,8 +91,8 @@ export default function Catalog() {
                 }}
                 className={`px-4 py-2 rounded-full text-xs font-black transition-all duration-200 ${
                   isActive
-                    ? 'bg-brand-blue text-white shadow-md scale-105'
-                    : 'bg-steel-50 text-steel-700 hover:bg-steel-100 border border-steel-200'
+                    ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-cardDark-950 shadow-card-glow scale-105'
+                    : 'bg-cardDark-900 text-slate-300 hover:bg-cardDark-800 border border-slate-700'
                 }`}
               >
                 {category}
@@ -107,53 +107,52 @@ export default function Catalog() {
             const displayTitle = language === 'or' && item.titleOdia ? item.titleOdia : item.title;
             const displayCategory = language === 'or' && item.categoryOdia ? item.categoryOdia : item.category;
             const displayMaterial = language === 'or' && item.materialOdia ? item.materialOdia : item.material;
-            const displayBadge = language === 'or' && item.badgeOdia ? item.badgeOdia : item.badge;
 
             return (
               <div
                 key={item.id}
                 onClick={() => handleOpenLightbox(idx)}
-                className="group relative rounded-2xl overflow-hidden bg-white border border-steel-200 cursor-pointer hover:border-brand-blue transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col"
+                className="card-metallic-panel rounded-2xl overflow-hidden cursor-pointer hover:border-amber-400 transition-all duration-300 shadow-card-elevated flex flex-col group"
               >
-                <div className="aspect-[4/3] overflow-hidden bg-steel-100 relative">
+                <div className="aspect-[4/3] overflow-hidden bg-black/50 relative">
                   <img
                     src={item.image}
                     alt={displayTitle}
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-steel-950/80 via-steel-950/20 to-transparent opacity-70 group-hover:opacity-85 transition-opacity"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-cardDark-950 via-cardDark-950/20 to-transparent opacity-75 group-hover:opacity-85 transition-opacity"></div>
                   
                   {/* Top Badges */}
                   <div className="absolute top-3.5 inset-x-3.5 flex items-center justify-between pointer-events-none">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-black uppercase tracking-wider bg-white/95 text-brand-blue shadow">
+                    <span className="px-2.5 py-1 rounded-md text-[10px] font-black uppercase tracking-wider bg-cardDark-900/90 text-spark-gold border border-amber-500/40 shadow">
                       {displayCategory}
                     </span>
                     <span className="px-2.5 py-1 rounded-md text-[10px] font-black uppercase tracking-wider bg-emerald-600 text-white shadow flex items-center gap-1">
                       <Sparkles className="w-2.5 h-2.5" />
-                      <span>{displayBadge}</span>
+                      <span>{item.badge}</span>
                     </span>
                   </div>
 
                   {/* Hover icon */}
-                  <div className="absolute bottom-3.5 right-3.5 w-8 h-8 rounded-full bg-white/95 text-steel-900 flex items-center justify-center shadow group-hover:scale-110 transition-transform">
-                    <Maximize2 className="w-4 h-4" />
+                  <div className="absolute bottom-3.5 right-3.5 w-8 h-8 rounded-full bg-amber-500 text-cardDark-950 flex items-center justify-center shadow group-hover:scale-110 transition-transform">
+                    <Maximize2 className="w-4 h-4 stroke-[2.5]" />
                   </div>
                 </div>
 
                 <div className="p-5 flex-1 flex flex-col justify-between">
                   <div>
-                    <h3 className="text-base font-black text-steel-900 mb-1.5 leading-snug group-hover:text-brand-blue transition-colors">
+                    <h3 className="text-base font-black text-white mb-1.5 leading-snug group-hover:text-spark-gold transition-colors">
                       {displayTitle}
                     </h3>
-                    <p className="text-xs text-steel-600 leading-relaxed line-clamp-2">
+                    <p className="text-xs text-slate-300 leading-relaxed line-clamp-2">
                       {displayMaterial}
                     </p>
                   </div>
 
-                  <div className="mt-4 pt-3 border-t border-steel-100 flex items-center justify-between text-xs font-bold text-brand-blue">
+                  <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-bold text-amber-300">
                     <span>{t.catalog.viewFullscreen}</span>
-                    <ChevronRight className="w-4 h-4" />
+                    <ChevronRight className="w-4 h-4 text-spark-gold" />
                   </div>
                 </div>
               </div>
@@ -166,27 +165,27 @@ export default function Catalog() {
       {/* Lightbox Modal */}
       {activeImageIndex !== null && currentItem && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-steel-950/90 backdrop-blur-md p-4 transition-opacity animate-fadeIn"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-md p-4 transition-opacity animate-fadeIn"
           onClick={handleCloseLightbox}
         >
           <div
-            className="relative max-w-4xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col"
+            className="relative max-w-4xl w-full bg-cardDark-900 border-2 border-amber-500/50 rounded-2xl overflow-hidden shadow-2xl flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="flex items-center justify-between px-5 py-3.5 border-b border-steel-200 bg-steel-50">
+            <div className="flex items-center justify-between px-5 py-3.5 border-b border-amber-500/20 bg-cardDark-950">
               <div className="flex items-center gap-2.5">
-                <span className="px-2.5 py-0.5 rounded text-xs font-bold uppercase bg-sky-100 text-brand-blue">
+                <span className="px-2.5 py-0.5 rounded text-xs font-bold uppercase bg-amber-500/20 text-spark-gold border border-amber-500/30">
                   {language === 'or' && currentItem.categoryOdia ? currentItem.categoryOdia : currentItem.category}
                 </span>
-                <span className="text-xs font-mono text-steel-500 font-bold">
+                <span className="text-xs font-mono text-slate-400 font-bold">
                   {activeImageIndex + 1} {t.catalog.counterOf} {filteredItems.length}
                 </span>
               </div>
 
               <button
                 onClick={handleCloseLightbox}
-                className="p-1.5 rounded-lg bg-steel-200 text-steel-700 hover:bg-steel-300 transition-colors"
+                className="p-1.5 rounded-lg bg-cardDark-800 text-slate-300 hover:text-white"
                 aria-label="Close"
               >
                 <X className="w-5 h-5" />
@@ -194,7 +193,7 @@ export default function Catalog() {
             </div>
 
             {/* Modal Image Display */}
-            <div className="relative bg-steel-900 flex items-center justify-center min-h-[300px] max-h-[65vh] overflow-hidden">
+            <div className="relative bg-black flex items-center justify-center min-h-[300px] max-h-[65vh] overflow-hidden">
               <img
                 src={currentItem.image}
                 alt={currentItem.title}
@@ -203,7 +202,7 @@ export default function Catalog() {
 
               <button
                 onClick={handlePrev}
-                className="absolute left-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-white/90 hover:bg-white text-steel-900 shadow-lg transition-all"
+                className="absolute left-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-cardDark-900/90 text-white hover:bg-amber-500 hover:text-cardDark-950 shadow-lg transition-all border border-amber-500/30"
                 aria-label="Previous"
               >
                 <ChevronLeft className="w-5 h-5 stroke-[2.5]" />
@@ -211,7 +210,7 @@ export default function Catalog() {
 
               <button
                 onClick={handleNext}
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-white/90 hover:bg-white text-steel-900 shadow-lg transition-all"
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-cardDark-900/90 text-white hover:bg-amber-500 hover:text-cardDark-950 shadow-lg transition-all border border-amber-500/30"
                 aria-label="Next"
               >
                 <ChevronRight className="w-5 h-5 stroke-[2.5]" />
@@ -219,21 +218,21 @@ export default function Catalog() {
             </div>
 
             {/* Modal Footer */}
-            <div className="p-5 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-steel-200">
+            <div className="p-5 bg-cardDark-900 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-amber-500/20">
               <div>
-                <h4 className="text-base font-black text-steel-900 mb-0.5">
+                <h4 className="text-base font-black text-white mb-0.5">
                   {language === 'or' && currentItem.titleOdia ? currentItem.titleOdia : currentItem.title}
                 </h4>
-                <p className="text-xs text-steel-600">
+                <p className="text-xs text-slate-300">
                   {language === 'or' && currentItem.materialOdia ? currentItem.materialOdia : currentItem.material}
                 </p>
               </div>
 
               <a
-                href={getWhatsAppLink(`Hello Sarat Bhai, I saw this design '${currentItem.title}' on your website and want to know price and fitting details for my house.`)}
+                href={getWhatsAppLink(`Hello Sarat Bhai, I saw this work '${currentItem.title}' on your website and want to discuss for my house.`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm shadow-md transition-all active:scale-95"
+                className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold text-xs sm:text-sm shadow-md transition-all active:scale-95"
               >
                 <MessageSquare className="w-4 h-4 fill-current" />
                 <span>{t.catalog.askPriceForDesign}</span>

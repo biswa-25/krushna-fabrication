@@ -7,26 +7,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        steel: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
+        cardDark: {
+          950: '#070a0f',
+          900: '#0b1019',
+          850: '#101726',
+          800: '#162032',
+          700: '#23324a',
         },
-        brand: {
-          blue: '#0284c7',       // Industrial Cobalt Blue
-          blueDark: '#0369a1',
-          blueLight: '#e0f2fe',
-          amber: '#f59e0b',      // Welding Flame Gold / Amber
-          amberDark: '#d97706',
-          amberLight: '#fef3c7',
-          emerald: '#059669',    // WhatsApp / Verification green
+        spark: {
+          gold: '#f59e0b',       // Card Welding Flame Gold
+          orange: '#ea580c',     // Card Flame Orange
+          yellow: '#fbbf24',     // Card Title Bright Yellow
+          glow: 'rgba(245, 158, 11, 0.4)',
+        },
+        steelSheen: {
+          light: '#f8fafc',
+          silver: '#cbd5e1',
+          border: 'rgba(245, 158, 11, 0.3)',
         }
       },
       fontFamily: {
@@ -34,9 +31,9 @@ export default {
         display: ['Outfit', 'Noto Sans Oriya', 'Inter', 'sans-serif'],
       },
       boxShadow: {
-        'soft': '0 4px 20px -2px rgba(15, 23, 42, 0.06)',
-        'card': '0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)',
-        'metallic': '0 12px 30px -8px rgba(2, 132, 199, 0.18)',
+        'card-glow': '0 10px 30px -5px rgba(245, 158, 11, 0.25), 0 0 15px rgba(234, 88, 12, 0.15)',
+        'spark-btn': '0 6px 20px -2px rgba(234, 88, 12, 0.5)',
+        'card-elevated': '0 15px 35px -5px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3)',
       }
     },
   },

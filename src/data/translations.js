@@ -1,7 +1,7 @@
 /**
  * =========================================================================
- * KARAN STEEL & FABRICATION WORKS - BILINGUAL TRANSLATIONS (EN & OR)
- * Owner: Sarat Karan | Mobile & WhatsApp: 8260750546
+ * KRUSHNA FABRICATION (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) - BILINGUAL TRANSLATIONS
+ * Owner & Contractor: Sarat Karan | Mobile & WhatsApp: 8260750546
  * =========================================================================
  */
 
@@ -12,277 +12,201 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
-      owner: "Master Fabricator",
-      services: "Services",
-      designs: "Work Showcase",
-      estimate: "Quick Estimate",
+      card: "Visiting Card",
+      owner: "Owner & Contractor",
+      services: "Our Works",
+      designs: "Real Samples",
+      requirement: "Send Requirement",
       whyUs: "Why Choose Us",
       process: "How We Work",
-      contact: "Contact Us",
+      contact: "Contact",
       callUs: "Call 8260750546",
-      whatsappUs: "WhatsApp Design"
+      whatsappUs: "WhatsApp Us"
     },
     hero: {
-      badge: "Sarat Karan • Steel & Fabrication Workshop",
-      headline: "Strong Steel. Modern Design. Built to Last.",
-      subheadline: "Specialists in SS Gates, Window Grills, PVC/Fiber Doors & Precision Welding",
-      supportingText:
-        "Custom fabrication of stainless steel gates, decorative safety doors, modern staircase railings, PVC & fiber doors, aluminium sliding windows, and heavy-duty structural welding in Banapur & nearby areas.",
-      primaryCta: "WhatsApp Your Design",
-      callCta: "Call 8260750546",
-      viewWorkCta: "View Real Work Samples",
-      trustBadge: "Grade 304 Stainless Steel • Lifetime Rust Protection • On-Site Fitting",
-      locationBadge: "📍 Biharpur Chhak, Banapur, Odisha"
+      badge: "Biharpur Chhak, Banapur • Sarat Karan",
+      name: "Krushna Fabrication",
+      tagline: "All Types of Steel, G.I., Aluminium & Iron Works",
+      subheadline: "Steel Gate, Window Grill, UPVC/WPVC Doors, Fiber Doors, Aluminium Windows & Upstairs Railings",
+      contractBadge: "Full House & Building Fabrication Contracts Undertaken",
+      contractDesc: "We take complete contracts for new houses and buildings. Tell us what you need, and Sarat Karan will personally visit your site, take exact measurements, and provide your individual quotation.",
+      sendReqBtn: "WhatsApp Your Requirement",
+      callBtn: "Call 8260750546",
+      viewWorkBtn: "View Real Samples",
+      cardBadge: "Official Workshop Visiting Card",
+      trustStrip: "Grade 304 Stainless Steel • Argon Welding • UPVC/WPVC • 100% Waterproof Fiber Doors"
+    },
+    visitingCardSection: {
+      badge: "Official Visiting Card",
+      heading: "Krushna Fabrication Visiting Card",
+      subheading: "Tap to enlarge, save, or directly call/WhatsApp the phone number printed on the card.",
+      callDirect: "Call Printed Number: 8260750546",
+      wpDirect: "WhatsApp Printed Number",
+      addressPrinted: "Biharpur Chhak, Banapur, Odisha"
     },
     owner: {
-      badge: "Meet The Master Craftsman",
+      badge: "Workshop Owner & Contractor",
       heading: "Sarat Karan",
-      title: "Founder & Lead Fabricator - Karan Steel Works",
+      title: "Owner & Master Fabricator - Krushna Fabrication",
       experience:
-        "With decades of hands-on mastery in argon arc welding, metal cutting, custom architectural gate designing, and PVC/fiber door installation, Sarat Karan ensures every home gets rock-solid safety with breathtaking modern aesthetics.",
+        "Sarat Karan has decades of trusted local experience in Banapur undertaking house contracts for high-grade Stainless Steel (SS 304) gates, security grills, designer UPVC/WPVC doors, waterproof polymer fiber doors, and precision argon arc welding.",
       quote:
-        "Every gate, grill, and door we make is built with pride and precision. We measure carefully at your site, choose the finest grade metal, and ensure flawless fitting that protects your family for generations.",
+        "We take complete building contracts with pride. From taking measurements at your site to delivering rock-solid fitting, we make sure your home gets the strongest safety and modern beauty at honest rates.",
+      contractOffer: "Specialist in Complete Building & House Fabrication Contracts",
       highlights: [
-        "Specialist in 304 & 202 Grade Stainless Steel (SS) fabrication",
-        "Expertise in custom laser-cut & decorative gate designs",
-        "Free on-site measurement & transparent per-sq.ft/weight pricing",
-        "Complete fitting & delivery across Banapur, Balugaon & Khordha district"
+        "Certified Grade 304 Stainless Steel (SS) fabrication",
+        "Expertise in UPVC, WPVC & waterproof fiber bathroom doors",
+        "Free on-site visit and measurement at your building",
+        "Individual calculations and transparent pricing with no middleman"
       ],
-      callDirect: "Call Sarat Bhai (8260750546)",
-      whatsappDirect: "Chat with Sarat Bhai on WhatsApp"
+      callDirect: "Call Sarat Karan (8260750546)",
+      whatsappDirect: "Send Requirement to Sarat Karan"
     },
     services: {
-      badge: "What We Make & Fabricate",
-      heading: "Our Fabrication & Interior Solutions",
-      subheading: "From luxury stainless steel entrance gates to waterproof fiber doors and structural metal sheds.",
-      askPrice: "Ask Price on WhatsApp",
+      badge: "Works We Do",
+      heading: "Our Complete Fabrication Works",
+      subheading: "All steel, iron, aluminium, UPVC, WPVC, and fiber works fabricated to custom order.",
+      sendRequirementForWork: "Enquire for this Work on WhatsApp",
       items: [
         {
-          id: "ss-gates",
-          title: "Stainless Steel (SS) Main Gates",
-          description: "Heavy-duty Grade 304 SS gates with modern laser-cut patterns, arches, and pillar trims.",
-          features: [
-            "Rust-proof Grade 304 & 202 options",
-            "Custom arch, swing, or sliding mechanisms",
-            "Decorative CNC laser sheet engravings (Peacock, Om, geometric)",
-            "High-gloss mirror and matte satin finishes"
-          ]
+          id: "steel-gate",
+          title: "Steel Gates (SS 304 & Iron)",
+          desc: "Grand arch entrance gates, sliding gates, and swing gates with peacock & modern CNC laser designs.",
+          bullets: ["Grade 304 & 202 Stainless Steel", "Peacock & Shubh-Labh laser sheets", "Heavy hinges & anti-sag design"]
         },
         {
-          id: "safety-doors",
-          title: "SS Designer Safety Doors",
-          description: "Dual security front doors combining stainless steel durability with wood/HPL decorative finishes.",
-          features: [
-            "Heavy tubular SS frames with anti-break locks",
-            "Designer wooden teak finish panels",
-            "Traditional Shubh-Labh, Om & floral motifs",
-            "Seamless fit outside main wooden entrance doors"
-          ]
-        },
-        {
-          id: "window-grills",
+          id: "window-grill",
           title: "Window Grills & Balcony Grills",
-          description: "Sturdy square bar and designer tube grills designed for maximum ventilation and burglary safety.",
-          features: [
-            "Solid iron & stainless steel square rod designs",
-            "Balcony safety enclosures & flower pot racks",
-            "Anti-corrosive primer coating & premium paint",
-            "Custom geometric & floral decorative patterns"
-          ]
+          desc: "Heavy square bar iron and stainless steel window grills for maximum ventilation and security.",
+          bullets: ["Solid iron square rod patterns", "Balcony safety cages", "Rust-proof primer & enamel finish"]
         },
         {
-          id: "staircase-railings",
-          title: "Modern SS Staircase Railings",
-          description: "Architectural indoor and outdoor staircase handrails with colorful decorative balusters.",
-          features: [
-            "Ergonomic polished SS round handrails",
-            "Designer colored balusters (Amber, Gold, Floral)",
-            "Toughened glass & SS pipe safety infills",
-            "Sturdy floor anchors with seamless decorative caps"
-          ]
+          id: "upvc-doors-windows",
+          title: "UPVC Doors & Windows",
+          desc: "Modern multi-chamber UPVC sliding windows and noise-insulating soundproof doors.",
+          bullets: ["Smooth sliding multi-track windows", "Dustproof & weather-sealed", "Zero maintenance & lifetime durability"]
         },
         {
-          id: "pvc-fiber-doors",
-          title: "PVC & Polymer Fiber Doors",
-          description: "100% waterproof and termite-proof doors ideal for bathrooms, balconies, and internal bedrooms.",
-          features: [
-            "Zero warping, zero swelling in monsoon humidity",
-            "Realistic wood grain and modern digital 3D prints",
-            "Heavy-duty PVC frames with stainless steel hinges",
-            "Extremely low maintenance & easily washable"
-          ]
+          id: "fiber-doors",
+          title: "Waterproof Fiber Doors",
+          desc: "100% water and termite-proof polymer fiber doors ideal for bathrooms and balconies.",
+          bullets: ["Zero swelling or rotting in water", "Decorative 3D embossed designs", "Heavy-duty matching frames"]
         },
         {
           id: "aluminium-windows",
-          title: "Aluminium Sliding Windows",
-          description: "Smooth glide powder-coated 2-track and 3-track windows with tinted glass and mosquito mesh.",
-          features: [
-            "Heavy gauge anodized aluminium profiles",
-            "Clear, frosted, or reflective solar control glass",
-            "Integrated stainless steel mosquito net track",
-            "Weather-stripping for noise and dust insulation"
-          ]
+          title: "Aluminium Doors & Windows",
+          desc: "Powder-coated sliding aluminium windows with tinted glass and integrated mosquito mesh.",
+          bullets: ["Durable anodized aluminium frames", "Smooth sliding roller tracks", "Mosquito net protection"]
         },
         {
-          id: "structural-welding",
-          title: "Precision Arc & Argon Welding",
-          description: "High-strength welding for custom furniture, machinery frames, and on-site structural repair.",
-          features: [
-            "Smooth argon welding for flawless SS joints",
-            "Heavy arc welding for structural iron joints",
-            "On-site mobile welding and repair service",
-            "Custom fabrication tailored to exact architectural drawings"
-          ]
+          id: "upstairs-railing",
+          title: "Upstairs & Staircase Railing",
+          desc: "Staircase handrails in polished stainless steel with amber/colored decorative balusters.",
+          bullets: ["Polished SS round/square handrails", "Dual-tone decorative balusters", "Floral toughened glass inserts"]
         },
         {
-          id: "metal-sheds",
-          title: "Rooftop & Industrial Metal Sheds",
-          description: "Durable pipe truss sheds for terrace protection, parking lots, and warehouse roofing.",
-          features: [
-            "Engineered hollow steel pipe trusses",
-            "Color-coated profile sheets & polycarbonate panels",
-            "Withstands heavy coastal winds and torrential rain",
-            "Fast installation with reliable structural anchoring"
-          ]
+          id: "wpvc-plastic-design",
+          title: "WPVC Doors & Plastic Design",
+          desc: "Heavy Wood-Plastic Composite (WPVC) and plastic designer doors with luxury finishes.",
+          bullets: ["High density composite strength", "Rich wooden grain finishes", "Termite and fire retardant"]
+        },
+        {
+          id: "welding-contracts",
+          title: "Welding & Building Contracts",
+          desc: "Precision argon welding, arc welding, terrace metal sheds, and complete house contracts.",
+          bullets: ["Flawless argon welded SS joints", "Heavy tubular pipe truss sheds", "Turnkey house fabrication contracts"]
         }
       ]
     },
     catalog: {
-      badge: "Real Work Showcase",
-      heading: "Designs & Fabricated Samples",
-      subheading: "Take a look at real gates, doors, railings, and grills fabricated and fitted by Sarat Karan.",
-      categories: ["All", "Main Gates", "Doors", "Railings", "Windows", "PVC & Fiber", "Sheds & Welding"],
+      badge: "Real Work Samples",
+      heading: "Fabricated Projects by Krushna Fabrication",
+      subheading: "Take a look at real photos of our gates, safety doors, railings, and workshop in Banapur.",
+      categories: ["All", "Steel Gates", "Doors", "Grills", "Upstairs Railing", "Workshop"],
       counterOf: "of",
-      askPriceForDesign: "Send Photo to Sarat Bhai on WhatsApp for Price & Details",
-      viewFullscreen: "Click to View Details & Dimensions"
+      askPriceForDesign: "Send Photo to Sarat Karan on WhatsApp for Details",
+      viewFullscreen: "Click to View Details"
     },
-    estimator: {
-      badge: "Instant Estimate Tool",
-      heading: "Calculate Your Requirement",
-      subheading: "Select your project type, enter approximate sizes, and receive an instant price quotation on WhatsApp.",
-      step1: "1. Select Item Type",
-      step2: "2. Approximate Dimensions (Optional)",
-      widthLabel: "Width (Feet)",
-      heightLabel: "Height (Feet)",
-      materialLabel: "Preferred Material",
-      notesLabel: "Special Design Preference / Notes",
-      notesPlaceholder: "e.g. Modern arch design, peacock engraving, 304 grade steel...",
-      calculateBtn: "Get Instant Quote via WhatsApp",
-      types: [
-        "Stainless Steel (SS) Main Gate",
-        "SS Designer Safety Door",
-        "Modern Staircase Railing",
-        "Window Grill / Balcony Grill",
-        "PVC / Fiber Bathroom Door",
-        "Aluminium Sliding Window",
-        "Terrace Roof Metal Shed"
-      ],
-      materials: [
-        "Grade 304 Stainless Steel (Recommended - Rust Free)",
-        "Grade 202 Stainless Steel (Budget Friendly)",
-        "Heavy Solid Iron (Traditional)",
-        "Waterproof Polymer Fiber / PVC",
-        "Powder Coated Aluminium"
-      ]
+    requirementForm: {
+      badge: "Send Your Requirement",
+      heading: "Tell Us What You Need",
+      subheading: "Select your required works below and write approximate details. Your message will be forwarded directly to Sarat Karan on WhatsApp (8260750546), and he will calculate and provide your quote individually!",
+      nameLabel: "Your Name",
+      namePlaceholder: "e.g. Rahul Mishra",
+      phoneLabel: "Your Phone Number",
+      phonePlaceholder: "e.g. 9876543210",
+      locationLabel: "Your Village / Town / Area",
+      locationPlaceholder: "e.g. Banapur, Balugaon, Nachuni...",
+      selectWorkLabel: "Select Work(s) Needed",
+      detailsLabel: "Requirement Details / Dimensions",
+      detailsPlaceholder: "Describe your requirement (e.g. 1 main gate 10x7 ft, 4 window grills, 2 fiber bathroom doors, upstairs railing)...",
+      submitBtn: "Send Requirement to Sarat Karan on WhatsApp",
+      contractBadge: "We Take Full Building Fabrication Contracts",
+      note: "* Sarat Karan will review your message, calculate exact materials and labor, and reply back to you individually with the best price!"
     },
     whyUs: {
-      badge: "Craftsmanship & Trust",
-      heading: "Why Choose Karan Steel Works?",
-      subheading: "Decades of honest craftsmanship, certified Grade 304 steel, and meticulous on-site installation.",
+      badge: "Trust & Experience",
+      heading: "Why Choose Krushna Fabrication?",
+      subheading: "Honest local craftsmanship by Sarat Karan, certified Grade 304 steel, and complete house contracts.",
       items: [
         {
-          title: "Genuine Grade 304 Steel",
-          description: "We use only authentic, certified stainless steel that never rusts or discolors even in coastal Odisha climate."
+          title: "Full Building Contract",
+          description: "We handle your entire home's steel gates, window grills, UPVC/fiber doors, and railings under one trusted roof."
         },
         {
-          title: "Precision Argon Welding",
-          description: "Our welds are ground flush, polished mirror-smooth, and built for immense structural rigidity."
+          title: "Certified Grade 304 SS",
+          description: "We use only genuine stainless steel that resists rust, discoloration, and weather damage for a lifetime."
         },
         {
-          title: "Free On-Site Measurement",
-          description: "Sarat Bhai personally visits your house or construction site to take exact measurements and guide design choices."
+          title: "Personal Measurement by Sarat Karan",
+          description: "The owner personally visits your construction site to take exact measurements and guide the best design."
         },
         {
-          title: "Fair & Transparent Rates",
-          description: "Clear pricing based on transparent square footage or weight calculations with zero hidden expenses."
+          title: "Direct Individual Pricing",
+          description: "No middlemen or inflated estimates. Sarat Karan calculates based on actual steel weight and square footage."
         }
       ]
     },
     process: {
-      badge: "Step-by-Step Workflow",
-      heading: "How We Bring Your Ideas to Life",
-      subheading: "A simple, trustworthy 5-step journey from initial concept to permanent on-site fitting.",
+      badge: "Simple 5-Step Process",
+      heading: "How We Complete Your Work",
+      subheading: "From your initial WhatsApp message to flawless fitting at your doorstep.",
       steps: [
-        {
-          step: "01",
-          title: "Call or WhatsApp",
-          desc: "Contact 8260750546 with your design photo or requirements."
-        },
-        {
-          step: "02",
-          title: "Site Visit & Measurement",
-          desc: "Sarat Bhai visits your building to take exact measurements and inspect fitting anchors."
-        },
-        {
-          step: "03",
-          title: "Design & Material Finalization",
-          desc: "Choose your favorite pattern (CNC laser cuts, balusters, thickness) and agree on estimate."
-        },
-        {
-          step: "04",
-          title: "Workshop Fabrication",
-          desc: "Precision cutting, argon welding, buffing, polishing, and quality testing in our workshop."
-        },
-        {
-          step: "05",
-          title: "On-Site Installation",
-          desc: "Delivery and rock-solid bolting/welding into your doorway or pillars for permanent safety."
-        }
+        { step: "01", title: "Send Requirement", desc: "WhatsApp 8260750546 with your building needs or design photos." },
+        { step: "02", title: "Free Site Measurement", desc: "Sarat Karan visits your site in Banapur/nearby areas to take exact measurements." },
+        { step: "03", title: "Design & Quote Approval", desc: "Finalize steel grade, laser sheets, colors, and agreed individual quotation." },
+        { step: "04", title: "Workshop Fabrication", desc: "Precision cutting, argon welding, buffing, and high-gloss polishing in our shop." },
+        { step: "05", title: "Permanent Fitting", desc: "Solid on-site bolting and welding for lifetime strength and safety." }
       ]
     },
     contact: {
-      badge: "Get In Touch",
+      badge: "Direct Contact",
       heading: "Contact Sarat Karan",
-      subheading: "Discuss your building's steel, grill, PVC door, or welding requirements directly with the owner.",
-      detailsTitle: "Workshop & Contact Details",
-      ownerLabel: "Master Fabricator & Owner",
-      phoneLabel: "Phone & WhatsApp",
-      locationLabel: "Workshop Location",
+      subheading: "Call or message Krushna Fabrication for any fabrication requirement or building contract.",
+      shopTitle: "Krushna Fabrication Workshop",
+      ownerTitle: "Owner & Lead Contractor",
+      phoneTitle: "Direct Phone & WhatsApp",
+      addressTitle: "Workshop Location",
       hoursTitle: "Working Hours",
-      formTitle: "Request a Callback / Site Visit",
-      formSubtitle: "Fill in your details below and Sarat Bhai will contact you immediately.",
-      nameLabel: "Your Name",
-      namePlaceholder: "e.g. Bithal Sahoo",
-      phoneFieldLabel: "Phone Number",
-      phonePlaceholder: "e.g. 9876543210",
-      itemTypeLabel: "Item You Need",
-      locationFieldLabel: "Your Village / Town / Area",
-      locationFieldPlaceholder: "e.g. Banapur, Balugaon, Nachuni...",
-      msgLabel: "Work Details / Dimensions",
-      msgPlaceholder: "Describe your requirement (e.g. 10x7 ft main gate, 3 PVC doors)...",
-      submitBtn: "Send Request via WhatsApp",
-      thankYou: "Thank You, {name}!",
-      thankYouMsg: "Your inquiry for '{item}' has been generated.",
-      forwardWhatsapp: "Forward to Sarat Bhai on WhatsApp",
-      anotherInquiry: "Make Another Inquiry",
-      spamNotice: "Direct assistance from owner Sarat Karan. 100% honest local service."
+      openDaily: "Open 7 Days: 8:00 AM – 8:30 PM",
+      callNowBtn: "Call 8260750546",
+      whatsappBtn: "Chat on WhatsApp"
     },
     footer: {
-      tagline: "Karan Steel & Fabrication Works • Owner: Sarat Karan • Biharpur Chhak, Banapur, Odisha.",
+      tagline: "Krushna Fabrication (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) • Owner: Sarat Karan • Biharpur Chhak, Banapur, Odisha.",
       quickLinks: "Quick Links",
       contactUs: "Contact",
       backToTop: "Back to top",
-      copyright: "© 2026 Karan Steel & Fabrication Works. All rights reserved. Managed by Sarat Karan."
+      copyright: "© 2026 Krushna Fabrication. All rights reserved. Managed by Sarat Karan."
     },
     mobileBar: {
       call: "Call 8260750546",
-      whatsapp: "WhatsApp Design"
+      whatsapp: "WhatsApp Requirement"
     },
     whatsappMsgs: {
-      general: "Hello Sarat Bhai (Karan Steel Works), I want to discuss steel gate / grill / PVC door work for my home.",
-      quote: "Hello Sarat Bhai, I would like an estimate for {item} (approx size: {size}).",
-      designInquiry: "Hello Sarat Bhai, I saw this design '{title}' on your website and want to know price and fitting details.",
-      ownerDirect: "Hello Sarat Bhai, I want to invite you to our construction site for measurement and discussion."
+      general: "Hello Sarat Bhai (Krushna Fabrication), I want to discuss Steel Gate / Grill / Door work for my building.",
+      requirement: "*Krushna Fabrication - Work Requirement*\n*Name:* {name}\n*Phone:* {phone}\n*Location:* {location}\n*Works Needed:* {works}\n*Details:* {details}",
+      directOwner: "Hello Sarat Bhai, I want to invite you to our construction site for measurement and fabrication contract discussion."
     }
   },
 
@@ -292,10 +216,11 @@ export const translations = {
   or: {
     nav: {
       home: "ମୁଖ୍ୟ ପୃଷ୍ଠା",
-      owner: "ମୁଖ୍ୟ କାରିଗର",
-      services: "ସେବାସମୂହ",
-      designs: "ଡିଜାଇନ୍ ନମୁନା",
-      estimate: "ଖର୍ଚ୍ଚ ଆକଳନ",
+      card: "ଭିଜିଟିଂ କାର୍ଡ",
+      owner: "ମାଲିକ ଓ କଣ୍ଟ୍ରାକ୍ଟର",
+      services: "ଆମ କାମ",
+      designs: "ପ୍ରକୃତ ନମୁନା",
+      requirement: "ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ",
       whyUs: "କାହିଁକି ବାଛିବେ",
       process: "କାର୍ଯ୍ୟ ପ୍ରଣାଳୀ",
       contact: "ଯୋଗାଯୋଗ",
@@ -303,266 +228,189 @@ export const translations = {
       whatsappUs: "ହ୍ୱାଟସ୍ଆପ୍"
     },
     hero: {
-      badge: "ଶରତ କରଣ • ଷ୍ଟିଲ୍ & ଫ୍ୟାବ୍ରିକେସନ୍ ୱାର୍କସପ୍",
-      headline: "ମଜବୁତ୍ ଷ୍ଟିଲ୍। ଆଧୁନିକ ଡିଜାଇନ୍। ଜୀବନସାରା ସୁରକ୍ଷା।",
-      subheadline: "ଏସ୍‌ଏସ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ପିଭିସି/ଫାଇବର କବାଟ ଓ ୱେଲ୍ଡିଂ ବିଶେଷଜ୍ଞ",
-      supportingText:
-        "ବାଣପୁର ଏବଂ ଆଖପାଖ ଅଞ୍ଚଳରେ ଘରର ମୁଖ୍ୟ ପ୍ରବେଶ ଦ୍ୱାର (SS ଗେଟ୍), ସୁରକ୍ଷା ଝରକା ଗ୍ରୀଲ୍, ସିଡ଼ି ରେଲିଂ, ପିଭିସି ଓ ଫାଇବର କବାଟ, ଆଲୁମିନିୟମ୍ ୱିଣ୍ଡୋ ଏବଂ ସମସ୍ତ ପ୍ରକାର ୱେଲ୍ଡିଂ କାର୍ଯ୍ୟର ବିଶ୍ୱସନୀୟ କେନ୍ଦ୍ର।",
-      primaryCta: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଡିଜାଇନ୍ ପଠାନ୍ତୁ",
-      callCta: "କଲ୍ କରନ୍ତୁ: ୮୨୬୦୭୫୦୫୪୬",
-      viewWorkCta: "ଆମ କାମର ଫଟୋ ଦେଖନ୍ତୁ",
-      trustBadge: "୩୦୪ ଗ୍ରେଡ୍ ଅସଲି ଷ୍ଟିଲ୍ • କଳଙ୍କି ନିରୋଧକ • ସ୍ଥାନୀୟ ଫିଟିଂ ସୁବିଧା",
-      locationBadge: "📍 ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା"
+      badge: "ବିହାରପୁର ଛକ, ବାଣପୁର • ଶରତ କରଣ",
+      name: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ",
+      tagline: "ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।",
+      subheadline: "ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି କବାଟ, ଫାଇବର କବାଟ, ଆଲୁମିନିୟମ୍ ଝରକା ଓ ସିଡ଼ି ରେଲିଂ",
+      contractBadge: "ନୂତନ ଘର ଓ କୋଠାର ସମ୍ପୂର୍ଣ୍ଣ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନିଆଯାଏ",
+      contractDesc: "ଆମେ ନୂଆ ଘରର ସମସ୍ତ ଗେଟ୍, ଗ୍ରୀଲ୍, କବାଟ ଓ ଝରକା କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ । ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ, ଶରତ କରଣ ନିଜେ ଯାଇ ମାପ ନେଇ ଉଚିତ୍ ଦର ଜଣାଇବେ ।",
+      sendReqBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ",
+      callBtn: "କଲ୍ କରନ୍ତୁ: ୮୨୬୦୭୫୦୫୪୬",
+      viewWorkBtn: "ପ୍ରକୃତ କାମର ଫଟୋ ଦେଖନ୍ତୁ",
+      cardBadge: "ୱାର୍କସପ୍‌ର ପ୍ରକୃତ ଭିଜିଟିଂ କାର୍ଡ",
+      trustStrip: "୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ • ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ • ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି • ୧୦୦% ୱାଟରପ୍ରୁଫ୍ ଫାଇବର କବାଟ"
+    },
+    visitingCardSection: {
+      badge: "ପ୍ରକୃତ ଭିଜିଟିଂ କାର୍ଡ",
+      heading: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ ଭିଜିଟିଂ କାର୍ଡ",
+      subheading: "କାର୍ଡକୁ ବଡ଼ କରି ଦେଖନ୍ତୁ କିମ୍ବା କାର୍ଡରେ ଥିବା ନମ୍ବରରେ ସିଧାସଳଖ କଲ୍ / ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ।",
+      callDirect: "କାର୍ଡ ନମ୍ବରରେ କଲ୍: ୮୨୬୦୭୫୦୫୪୬",
+      wpDirect: "କାର୍ଡ ନମ୍ବରରେ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ",
+      addressPrinted: "ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା"
     },
     owner: {
-      badge: "ଅଭିଜ୍ଞ ମୁଖ୍ୟ କାରିଗର",
+      badge: "ୱାର୍କସପ୍ ମାଲିକ ଓ କଣ୍ଟ୍ରାକ୍ଟର",
       heading: "ଶରତ କରଣ (Sarat Karan)",
-      title: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ ଫ୍ୟାବ୍ରିକେଟର - କରଣ ଷ୍ଟିଲ୍ ୱାର୍କସ",
+      title: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟର - କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ",
       experience:
-        "ଦୀର୍ଘ ବର୍ଷର ଅଭିଜ୍ଞତା ସହିତ ଶରତ ଭାଇ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ, ଏସ୍‌ଏସ୍ କଟିଂ, ଆକର୍ଷଣୀୟ ମୁଖ୍ୟ ଗେଟ୍ ନିର୍ମାଣ ଏବଂ ପିଭିସି/ଫାଇବର କବାଟ ଫିଟିଂ କାମ ଅତ୍ୟନ୍ତ ଦକ୍ଷତା ଓ ଯତ୍ନ ସହକାରେ କରିଥାନ୍ତି।",
+        "ବାଣପୁର ଅଞ୍ଚଳରେ ଦୀର୍ଘ ବର୍ଷର ଅଭିଜ୍ଞତା ସହିତ ଶରତ କରଣ ନୂଆ ଘର ଓ ବିଲ୍ଡିଂର ସମସ୍ତ ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି କବାଟ, ପାଣି ନିରୋଧକ ଫାଇବର କବାଟ ଏବଂ ନିର୍ଭୁଲ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଇଥାନ୍ତି।",
       quote:
-        "ଆମ ପାଇଁ ପ୍ରତ୍ୟେକ ଗେଟ୍ ଓ ଗ୍ରୀଲ୍ କେବଳ ଲୁହା କି ଷ୍ଟିଲ୍ ନୁହେଁ, ଏହା ଆପଣଙ୍କ ଘରର ସୁରକ୍ଷା ଓ ଶୋଭା। ଆମେ ସ୍ୱୟଂ ସାଇଟ୍‌କୁ ଯାଇ ମାପ ନେଉ ଏବଂ ସର୍ବୋତ୍ତମ ଗୁଣବତ୍ତା ପ୍ରଦାନ କରୁ।",
+        "ଆମେ ଗର୍ବର ସହ ନୂଆ ଘରର ସମସ୍ତ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ । ସାଇଟ୍‌କୁ ଯାଇ ଠିକ୍ ମାପ ନେବା ଠାରୁ ଆରମ୍ଭ କରି ମଜବୁତ୍ ଫିଟିଂ ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତ କାର୍ଯ୍ୟ ଉଚିତ୍ ଦରରେ ଯତ୍ନ ସହକାରେ କରିଥାଉ।",
+      contractOffer: "ସମସ୍ତ ନୂତନ କୋଠା ଓ ଘରର ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ସୁବିଧା",
       highlights: [
-        "୩୦୪ ଓ ୨୦୨ ଗ୍ରେଡ୍ ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (SS) କାର୍ଯ୍ୟରେ ସିଦ୍ଧହସ୍ତ",
-        "ଆଧୁନିକ ଲେଜର କଟିଂ ଓ ସୁନ୍ଦର ଡିଜାଇନର୍ ଗେଟ୍ ତିଆରିରେ ବିଶେଷଜ୍ଞ",
-        "ଘରକୁ ଯାଇ ମାଗଣାରେ ମାପ ନେବା ଓ ସ୍ୱଚ୍ଛ ଦର ଆକଳନ",
-        "ବାଣପୁର, ବାଲୁଗାଁ ଓ ଆଖପାଖ ଅଞ୍ଚଳରେ ତୁରନ୍ତ ଫିଟିଂ ଓ ହସ୍ତାନ୍ତର"
+        "ପ୍ରାମାଣିକ ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (SS) ଫ୍ୟାବ୍ରିକେସନ୍",
+        "ୟୁପିଭିସି, ଡବ୍ଲୁପିଭିସି ଓ ୱାଟରପ୍ରୁଫ୍ ଫାଇବର କବାଟ ଫିଟିଂରେ ବିଶେଷଜ୍ଞ",
+        "ଘରକୁ ଯାଇ ମାଗଣାରେ ସାଇଟ୍ ମାପ ନେବା ସୁବିଧା",
+        "କୌଣସି ମଧ୍ୟସ୍ଥି ନାହିଁ — ସିଧାସଳଖ ହିସାବ ଓ ସୁଲଭ ମୂଲ୍ୟ"
       ],
-      callDirect: "ଶରତ ଭାଇଙ୍କୁ ସିଧାସଳଖ କଲ୍ କରନ୍ତୁ",
-      whatsappDirect: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ କଥା ହୁଅନ୍ତୁ"
+      callDirect: "ଶରତ କରଣଙ୍କୁ କଲ୍ କରନ୍ତୁ (୮୨୬୦୭୫୦୫୪୬)",
+      whatsappDirect: "ଶରତ କରଣଙ୍କୁ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ"
     },
     services: {
-      badge: "ଆମେ ତିଆରି କରୁଥିବା ସାମଗ୍ରୀ",
-      heading: "ଆମର ଫ୍ୟାବ୍ରିକେସନ୍ ଓ ଗୃହ ସାଜସଜ୍ଜା ସେବା",
-      subheading: "ରାଜକୀୟ ଷ୍ଟିଲ୍ ପ୍ରବେଶ ଦ୍ୱାରଠାରୁ ଆରମ୍ଭ କରି ୱାଟରପ୍ରୁଫ୍ ଫାଇବର କବାଟ ଓ ମଜବୁତ୍ ସେଡ୍।",
-      askPrice: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଦର ପଚାରନ୍ତୁ",
+      badge: "ଆମ କାମସମୂହ",
+      heading: "ଆମେ କରୁଥିବା ସମସ୍ତ ଫ୍ୟାବ୍ରିକେସନ୍ କାର୍ଯ୍ୟ",
+      subheading: "ଷ୍ଟିଲ୍, ଲୁହା, ଆଲୁମିନିୟମ୍, ୟୁପିଭିସି, ଡବ୍ଲୁପିଭିସି ଓ ଫାଇବର ସାମଗ୍ରୀର ସମ୍ପୂର୍ଣ୍ଣ ସମାଧାନ।",
+      sendRequirementForWork: "ଏହି କାମ ପାଇଁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଚାରନ୍ତୁ",
       items: [
         {
-          id: "ss-gates",
-          title: "ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (SS) ମୁଖ୍ୟ ଗେଟ୍",
-          description: "୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍, ଆକର୍ଷଣୀୟ ଆର୍ଚ୍, ଲେଜର କଟିଂ ପ୍ୟାଟର୍ଣ୍ଣ ଓ ସୁଦୃଢ଼ ପିଲାର୍ ଫିନିସ୍।",
-          features: [
-            "କଳଙ୍କିମୁକ୍ତ ଗ୍ରେଡ୍ ୩୦୪ ଓ ୨୦୨ ବିକଳ୍ପ",
-            "ଆର୍ଚ୍, ସୁଇଙ୍ଗ୍ କିମ୍ବା ସ୍ଲାଇଡିଂ ମେକାନିଜିମ୍",
-            "ମୟୂର, ଓଁ ଏବଂ ଜ୍ୟାମିତିକ ଲେଜର ଡିଜାଇନ୍ ସିଟ୍",
-            "ଦୀର୍ଘସ୍ଥାୟୀ ଚମକଦାର ମିରର୍ ଓ ମ୍ୟାଟ୍ ପଲିସ୍"
-          ]
+          id: "steel-gate",
+          title: "ଷ୍ଟିଲ୍ ଗେଟ୍ (SS 304 ଓ ଲୁହା)",
+          desc: "ଆର୍ଚ୍ ଏସ୍‌ଏସ୍ ଗେଟ୍, ସ୍ଲାଇଡିଂ ଓ ସୁଇଙ୍ଗ୍ ଗେଟ୍, ମୟୂର ଓ ଶୁଭ-ଲାଭ ଲେଜର କଟିଂ ଡିଜାଇନ୍।",
+          bullets: ["୩୦୪ ଓ ୨୦୨ ଏସ୍‌ଏସ୍ ଷ୍ଟିଲ୍", "ମୟୂର ଓ ଶୁଭ-ଲାଭ ଲେଜର ସିଟ୍", "ହେଭି କବ୍ଜା ଓ ମଜବୁତ୍ ଲକ୍"]
         },
         {
-          id: "safety-doors",
-          title: "ଏସ୍‌ଏସ୍ ଡିଜାଇନର୍ ସୁରକ୍ଷା କବାଟ",
-          description: "ଘରର ସୁରକ୍ଷା ପାଇଁ ଷ୍ଟିଲ୍ ଓ କାଠ/ପିଭିସି ପ୍ୟାନେଲ୍‌ର ଆଧୁନିକ ସମ୍ମିଶ୍ରଣ।",
-          features: [
-            "ଭଙ୍ଗା ନଯାଇପାରିବା ଭଳି ମଜବୁତ୍ ଏସ୍‌ଏସ୍ ଫ୍ରେମ୍",
-            "ଡିଜାଇନର୍ ଟିକ୍ ଉଡ୍ ଫିନିସ୍ ୱାଟରପ୍ରୁଫ୍ ପ୍ୟାନେଲ୍",
-            "ଶୁଭ-ଲାଭ, ଓଁ ଏବଂ ଫ୍ଲୋରାଲ୍ ମୋଟିଫ୍",
-            "ମୁଖ୍ୟ କବାଟ ସମ୍ମୁଖରେ ସୁରକ୍ଷିତ ଫିଟିଂ"
-          ]
-        },
-        {
-          id: "window-grills",
+          id: "window-grill",
           title: "ଝରକା ଗ୍ରୀଲ୍ ଓ ବାଲକୋନି ସୁରକ୍ଷା",
-          description: "ଉତ୍ତମ ବାୟୁ ଚଳାଚଳ ଏବଂ ସର୍ବାଧିକ ଚୋରି ସୁରକ୍ଷା ପାଇଁ ମଜବୁତ୍ ରଡ୍ ଗ୍ରୀଲ୍।",
-          features: [
-            "ମଜବୁତ୍ ଲୁହା ଓ ଷ୍ଟିଲ୍ ସ୍କୋୟାର୍ ପାଇପ୍ ଡିଜାଇନ୍",
-            "ବାଲକୋନି ଏନକ୍ଲୋଜର ଓ ଫୁଲକୁଣ୍ଡ ଷ୍ଟାଣ୍ଡ୍",
-            "କଳଙ୍କି ନିରୋଧକ ରେଡ୍-ଅକ୍ସାଇଡ୍ ଓ ଇନାମେଲ୍ ରଙ୍ଗ",
-            "ସୁନ୍ଦର ଜ୍ୟାମିତିକ ଓ ଫୁଲ ଡିଜାଇନ୍"
-          ]
+          desc: "ଭାରୀ ସ୍କୋୟାର୍ ରଡ୍ ଓ ପାଇପ୍ ଝରକା ଗ୍ରୀଲ୍, ସର୍ବାଧିକ ସୁରକ୍ଷା ଓ ଉତ୍ତମ ବାୟୁ ଚଳାଚଳ।",
+          bullets: ["ସଲିଡ୍ ଆଇରନ୍ ସ୍କୋୟାର୍ ରଡ୍", "ବାଲକୋନି ସୁରକ୍ଷା ଏନକ୍ଲୋଜର", "କଳଙ୍କି ନିରୋଧକ ପ୍ରାଇମର ଓ ରଙ୍ଗ"]
         },
         {
-          id: "staircase-railings",
-          title: "ଏସ୍‌ଏସ୍ ସିଡ଼ି ରେଲିଂ (Staircase)",
-          description: "ଘର ଭିତର ଓ ବାହାର ସିଡ଼ି ପାଇଁ ଆକର୍ଷଣୀୟ ରଙ୍ଗିନ ଖୁମ୍ବ ଓ ପଲିସ୍ ରେଲିଂ।",
-          features: [
-            "ହାତ ଧରିବା ପାଇଁ ସ୍ମୁଥ୍ ପଲିସ୍ ଏସ୍‌ଏସ୍ ରାଉଣ୍ଡ୍ ପାଇପ୍",
-            "ସୁନ୍ଦର ରଙ୍ଗିନ୍ ଓ କାଚ ଡିଜାଇନ୍ ଖୁମ୍ବ (Balusters)",
-            "ଟଫେନ୍ ଗ୍ଲାସ୍ ଓ ଏସ୍‌ଏସ୍ ରଡ୍ ସୁରକ୍ଷା ସେଟିଂ",
-            "ଦୃଢ଼ ଆଙ୍କର୍ ବୋଲ୍ଟ ଓ ଚମକଦାର କଭର କ୍ୟାପ୍"
-          ]
+          id: "upvc-doors-windows",
+          title: "ୟୁପିଭିସି କବାଟ ଓ ଝରକା (UPVC)",
+          desc: "ଆଧୁନିକ ୟୁପିଭିସି ସ୍ଲାଇଡିଂ ୱିଣ୍ଡୋ, ଶବ୍ଦ ଓ ଧୂଳି ନିରୋଧକ ଆଜୀବନ ସ୍ଥାୟୀ କବାଟ।",
+          bullets: ["ସ୍ମୁଥ୍ ସ୍ଲାଇଡିଂ ମଲ୍ଟି-ଟ୍ରାକ୍ ଝରକା", "ଧୂଳି ଓ ବର୍ଷା ପାଣି ରୋକିବା ସିଲ୍", "ଆଜୀବନ ରକ୍ଷଣାବେକ୍ଷଣ ମୁକ୍ତ"]
         },
         {
-          id: "pvc-fiber-doors",
-          title: "ପିଭିସି ଓ ପଲିମର ଫାଇବର କବାଟ",
-          description: "ବାଥରୁମ୍, ବାଲକୋନି ଓ ରୁମ୍ ପାଇଁ ୧୦୦% ୱାଟରପ୍ରୁଫ୍ ଏବଂ ଉଇ ନିରୋଧକ କବାଟ।",
-          features: [
-            "ବର୍ଷା ଦିନେ ପାଣିରେ ଫୁଲିବ ନାହିଁ କି ବଙ୍କା ହେବ ନାହିଁ",
-            "ପ୍ରାକୃତିକ କାଠ ଫିନିସ୍ ଓ ସୁନ୍ଦର ୩D ଡିଜିଟାଲ୍ ପ୍ରିଣ୍ଟ",
-            "ମଜବୁତ୍ ପିଭିସି ଚୌକାଠ ଓ ଏସ୍‌ଏସ୍ ହିଞ୍ଜ୍",
-            "ସହଜରେ ଧୋଇହେବ ଓ ଆଜୀବନ ସୁରକ୍ଷା"
-          ]
+          id: "fiber-doors",
+          title: "ୱାଟରପ୍ରୁଫ୍ ଫାଇବର କବାଟ",
+          desc: "ବାଥରୁମ୍ ଓ ବାଲକୋନି ପାଇଁ ୧୦୦% ପାଣି ଓ ଉଇ ନିରୋଧକ ପଲିମର ଫାଇବର କବାଟ।",
+          bullets: ["ପାଣିରେ କଦାପି ଫୁଲିବ ବା ନଷ୍ଟ ହେବ ନାହିଁ", "ଆକର୍ଷଣୀୟ ୩D ଡିଜାଇନର୍ ପ୍ରିଣ୍ଟ୍", "ମଜବୁତ୍ ଫ୍ରେମ୍ ଓ ହିଞ୍ଜ୍"]
         },
         {
           id: "aluminium-windows",
-          title: "ଆଲୁମିନିୟମ୍ ସ୍ଲାଇଡିଂ ଝରକା",
-          description: "ସ୍ମୁଥ୍ ରୋଲର, କଲର ଗ୍ଲାସ୍ ଏବଂ ମଶା ଜାଲି ସହିତ ଆଧୁନିକ ଝରକା।",
-          features: [
-            "ମଜବୁତ୍ ପାଉଡର କୋଟେଡ୍ ଆଲୁମିନିୟମ୍ ଫ୍ରେମ୍",
-            "ସ୍ୱଚ୍ଛ, ଟିଣ୍ଟେଡ୍ କିମ୍ବା ଫ୍ରଷ୍ଟେଡ୍ ସେଫ୍ଟି ଗ୍ଲାସ୍",
-            "ମଶା ଓ ପୋକ ରୋକିବା ପାଇଁ ଏସ୍‌ଏସ୍ ନେଟ୍ ଟ୍ରାକ୍",
-            "ଶବ୍ଦ ଓ ଧୂଳି ରୋକିବା ପାଇଁ ୱେଦର ସିଲ୍"
-          ]
+          title: "ଆଲୁମିନିୟମ୍ କବାଟ ଓ ଝରକା",
+          desc: "ପାଉଡର କୋଟେଡ୍ ଆଲୁମିନିୟମ୍ ସ୍ଲାଇଡିଂ ଝରକା, ଟିଣ୍ଟେଡ୍ ଗ୍ଲାସ୍ ଓ ମଶା ଜାଲି ସୁବିଧା।",
+          bullets: ["ମଜବୁତ୍ ଆଲୁମିନିୟମ୍ ସେକସନ୍", "ସ୍ମୁଥ୍ ରୋଲର ସ୍ଲାଇଡିଂ ଟ୍ରାକ୍", "ଏସ୍‌ଏସ୍ ମଶା ଜାଲି ସୁରକ୍ଷା"]
         },
         {
-          id: "structural-welding",
-          title: "ନିର୍ଭୁଲ ଆର୍ଗନ୍ ଓ ଆର୍କ ୱେଲ୍ଡିଂ",
-          description: "ଜଟିଳ ମେଟାଲ୍ କାମ, କଷ୍ଟମ୍ ଫର୍ଣ୍ଣିଚର ଓ ସାଇଟ୍ ରିପେୟାରିଂ ପାଇଁ ବିଶେଷଜ୍ଞ ୱେଲ୍ଡିଂ।",
-          features: [
-            "ଏସ୍‌ଏସ୍ ଯୋଡ଼ ପାଇଁ ଚିକ୍କଣ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ",
-            "ଲୁହା ସଂଯୋଗ ପାଇଁ ଅତ୍ୟଧିକ ଶକ୍ତିଶାଳୀ ଆର୍କ ୱେଲ୍ଡିଂ",
-            "ଘରକୁ ଯାଇ ତୁରନ୍ତ ୱେଲ୍ଡିଂ ଓ ରିପେୟାରିଂ ସେବା",
-            "ଆପଣଙ୍କ ନିଜସ୍ୱ ଡିଜାଇନ୍ ଅନୁଯାୟୀ କାର୍ଯ୍ୟ"
-          ]
+          id: "upstairs-railing",
+          title: "ସିଡ଼ି ରେଲିଂ (Upstairs Railing)",
+          desc: "ଏସ୍‌ଏସ୍ ହ୍ୟାଣ୍ଡରେଲ୍, ଆକର୍ଷଣୀୟ ଆମ୍ବର ରଙ୍ଗିନ୍ ଖୁମ୍ବ ଓ ଫ୍ଲୋରାଲ୍ ଗ୍ଲାସ୍ ଡିଜାଇନ୍।",
+          bullets: ["ପଲିସ୍ ଏସ୍‌ଏସ୍ ରାଉଣ୍ଡ୍ ହ୍ୟାଣ୍ଡରେଲ୍", "ଆକର୍ଷଣୀୟ ରଙ୍ଗିନ୍ ଡିଜାଇନ୍ ଖୁମ୍ବ", "ଫ୍ଲୋରାଲ୍ ଟଫେନ୍ ଗ୍ଲାସ୍ ପ୍ୟାନେଲ୍"]
         },
         {
-          id: "metal-sheds",
-          title: "ଛାତ ଟ୍ରସ୍ ଓ ମେଟାଲ୍ ସେଡ୍",
-          description: "ଟେରାସ୍, ପାର୍କିଂ ଏବଂ ଗୋଦାମ ପାଇଁ ସୁଦୃଢ଼ ଷ୍ଟିଲ୍ ପାଇପ୍ ଟ୍ରସ୍ ଛାତ।",
-          features: [
-            "ଭାରୀ ଷ୍ଟିଲ୍ ପାଇପ୍ ଦ୍ୱାରା ଇଞ୍ଜିନିୟର୍ଡ ଟ୍ରସ୍ ସେଟଅପ୍",
-            "କଲର କୋଟେଡ୍ ଟାଟା/ଜେଏସ୍‌ଡବ୍ଲୁ ସିଟ୍",
-            "ବାତ୍ୟା ଓ ପ୍ରବଳ ବର୍ଷା ସହିବାର ସମ୍ପୂର୍ଣ୍ଣ କ୍ଷମତା",
-            "ତୁରନ୍ତ ନିର୍ମାଣ ଓ ସୁରକ୍ଷିତ ଆଙ୍କରିଂ"
-          ]
+          id: "wpvc-plastic-design",
+          title: "ଡବ୍ଲୁପିଭିସି ଓ ପ୍ଲାଷ୍ଟିକ୍ ଡିଜାଇନ୍ କବାଟ",
+          desc: "ହେଭି ଉଡ୍-ପ୍ଲାଷ୍ଟିକ୍ କମ୍ପୋଜିଟ୍ (WPVC) ଏବଂ ପ୍ଲାଷ୍ଟିକ୍ ୩D ଡିଜାଇନର୍ କବାଟ।",
+          bullets: ["କାଠ ଭଳି ସୁନ୍ଦର ଓ ଦୃଢ଼ ଟେକ୍ସଚର", "ଉଇ ଓ ଅଗ୍ନି ପ୍ରତିରୋଧକ", "ଆଧୁନିକ ଇଣ୍ଟିରିଅର୍ ଲୁକ୍"]
+        },
+        {
+          id: "welding-contracts",
+          title: "ୱେଲ୍ଡିଂ ଓ ବିଲ୍ଡିଂ କଣ୍ଟ୍ରାକ୍ଟ",
+          desc: "ନିର୍ଭୁଲ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ, ଆର୍କ ୱେଲ୍ଡିଂ, ଛାତ ମେଟାଲ୍ ସେଡ୍ ଓ ସମ୍ପୂର୍ଣ୍ଣ ଘର କଣ୍ଟ୍ରାକ୍ଟ।",
+          bullets: ["ଚିକ୍କଣ ଆର୍ଗନ୍ ଏସ୍‌ଏସ୍ ୱେଲ୍ଡିଂ", "ଭାରୀ ଷ୍ଟିଲ୍ ପାଇପ୍ ଟ୍ରସ୍ ସେଡ୍", "ନୂଆ ଘରର ସମସ୍ତ କଣ୍ଟ୍ରାକ୍ଟ କାମ"]
         }
       ]
     },
     catalog: {
-      badge: "ପ୍ରକୃତ କାମର ଫଟୋ",
-      heading: "ଆମେ ତିଆରି କରିଥିବା ନମୁନା",
-      subheading: "ଶରତ କରଣଙ୍କ ଦ୍ୱାରା ତିଆରି ଓ ଫିଟିଂ କରାଯାଇଥିବା ପ୍ରକୃତ ଗେଟ୍, କବାଟ ଓ ରେଲିଂର ଫଟୋ ଦେଖନ୍ତୁ।",
-      categories: ["All", "Main Gates", "Doors", "Railings", "Windows", "PVC & Fiber", "Sheds & Welding"],
+      badge: "ପ୍ରକୃତ କାର୍ଯ୍ୟ ନମୁନା",
+      heading: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ ଦ୍ୱାରା ନିର୍ମିତ କାର୍ଯ୍ୟ",
+      subheading: "ବାଣପୁରସ୍ଥିତ ଆମ ୱାର୍କସପ୍ ଓ ଆମ ଦ୍ୱାରା ତିଆରି ଗେଟ୍, ସୁରକ୍ଷା କବାଟ, ରେଲିଂର ପ୍ରକୃତ ଫଟୋ ଦେଖନ୍ତୁ।",
+      categories: ["All", "Steel Gates", "Doors", "Grills", "Upstairs Railing", "Workshop"],
       counterOf: "ରୁ",
-      askPriceForDesign: "ଦର ଓ ବିବରଣୀ ଜାଣିବା ପାଇଁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଫଟୋ ପଠାନ୍ତୁ",
-      viewFullscreen: "ସମ୍ପୂର୍ଣ୍ଣ ଫଟୋ ଓ ବିବରଣୀ ଦେଖନ୍ତୁ"
+      askPriceForDesign: "ଏହି ଡିଜାଇନ୍ ବିଷୟରେ ଜାଣିବାକୁ ଶରତ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ",
+      viewFullscreen: "ସମ୍ପୂର୍ଣ୍ଣ ଫଟୋ ଦେଖନ୍ତୁ"
     },
-    estimator: {
-      badge: "ତୁରନ୍ତ ଖର୍ଚ୍ଚ ଆକଳନ",
-      heading: "ଆପଣଙ୍କ କାମର ଖର୍ଚ୍ଚ ଜାଣନ୍ତୁ",
-      subheading: "କେଉଁ ଜିନିଷ ଦରକାର ବାଛନ୍ତୁ ଏବଂ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ତୁରନ୍ତ ଆନୁମାନିକ ଦର ପାଆନ୍ତୁ।",
-      step1: "୧. ସାମଗ୍ରୀ ବାଛନ୍ତୁ",
-      step2: "୨. ଆନୁମାନିକ ମାପ (ଲମ୍ବ x ଚଉଡ଼ା ଫୁଟ୍)",
-      widthLabel: "ଚଉଡ଼ା (ଫୁଟ୍)",
-      heightLabel: "ଉଚ୍ଚତା (ଫୁଟ୍)",
-      materialLabel: "ପସନ୍ଦର ମେଟେରିଆଲ୍",
-      notesLabel: "ଡିଜାଇନ୍ ପସନ୍ଦ ବା ଅନ୍ୟାନ୍ୟ ବିବରଣୀ",
-      notesPlaceholder: "ଉଦାହରଣ: ମୟୂର ଡିଜାଇନ୍, ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍, ଆର୍ଚ୍ ଗେଟ୍...",
-      calculateBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଆକଳନ ମାଗନ୍ତୁ",
-      types: [
-        "ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (SS) ମୁଖ୍ୟ ଗେଟ୍",
-        "ଏସ୍‌ଏସ୍ ଡିଜାଇନର୍ ସୁରକ୍ଷା କବାଟ",
-        "ସିଡ଼ି ରେଲିଂ (Staircase Railing)",
-        "ଝରକା ଗ୍ରୀଲ୍ / ବାଲକୋନି ଗ୍ରୀଲ୍",
-        "ପିଭିସି / ଫାଇବର ବାଥରୁମ୍ କବାଟ",
-        "ଆଲୁମିନିୟମ୍ ସ୍ଲାଇଡିଂ ଝରକା",
-        "ଛାତ ଟେରାସ୍ ମେଟାଲ୍ ସେଡ୍"
-      ],
-      materials: [
-        "୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (ସର୍ବୋତ୍ତମ - କଳଙ୍କିମୁକ୍ତ)",
-        "୨୦୨ ଗ୍ରେଡ୍ ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ (ସୁଲଭ ମୂଲ୍ୟ)",
-        "ମଜବୁତ୍ ଲୁହା (Solid Iron)",
-        "ୱାଟରପ୍ରୁଫ୍ ପଲିମର ଫାଇବର / ପିଭିସି",
-        "ପାଉଡର କୋଟେଡ୍ ଆଲୁମିନିୟମ୍"
-      ]
+    requirementForm: {
+      badge: "ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ",
+      heading: "ଆପଣଙ୍କୁ କେଉଁ କାମ ଦରକାର ଜଣାନ୍ତୁ",
+      subheading: "ତଳେ ଆପଣଙ୍କୁ ଆବଶ୍ୟକ ଥିବା କାମ ବାଛନ୍ତୁ ଏବଂ ବିବରଣୀ ଲେଖନ୍ତୁ । ଏହା ସିଧାସଳଖ ଶରତ କରଣଙ୍କ ହ୍ୱାଟସ୍ଆପ୍ (୮୨୬୦୭୫୦୫୪୬) କୁ ପହଞ୍ଚିବ ଏବଂ ସେ ନିଜେ ହିସାବ କରି ଆପଣଙ୍କୁ ଉଚିତ୍ ଦର ଜଣାଇବେ!",
+      nameLabel: "ଆପଣଙ୍କ ନାମ",
+      namePlaceholder: "ଉଦାହରଣ: ରାହୁଲ ମିଶ୍ର",
+      phoneLabel: "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର",
+      phonePlaceholder: "ଉଦାହରଣ: ୯୮୭୬୫୪୩୨୧୦",
+      locationLabel: "ଆପଣଙ୍କ ଗ୍ରାମ / ସହର / ଅଞ୍ଚଳ",
+      locationPlaceholder: "ଉଦାହରଣ: ବାଣପୁର, ବାଲୁଗାଁ, ନାଚୁଣୀ...",
+      selectWorkLabel: "କେଉଁ କାମ ଦରକାର ବାଛନ୍ତୁ",
+      detailsLabel: "କାମର ବିବରଣୀ ବା ଆନୁମାନିକ ମାପ",
+      detailsPlaceholder: "ଉଦାହରଣ: ୧ଟି ୧୦x୭ ଫୁଟ୍ ମୁଖ୍ୟ ଗେଟ୍, ୪ଟି ଝରକା ଗ୍ରୀଲ୍, ୨ଟି ଫାଇବର କବାଟ, ସିଡ଼ି ରେଲିଂ...",
+      submitBtn: "ଶରତ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ",
+      contractBadge: "ଆମେ ନୂଆ ଘରର ସମ୍ପୂର୍ଣ୍ଣ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ",
+      note: "* ଶରତ କରଣ ଆପଣଙ୍କ ମେସେଜ୍ ଦେଖି ମେଟେରିଆଲ୍ ଓ ମଜୁରୀ ହିସାବ କରି ଆପଣଙ୍କୁ ବ୍ୟକ୍ତିଗତ ଭାବେ ଉତ୍ତମ ଦର ଜଣାଇବେ!"
     },
     whyUs: {
-      badge: "ବିଶ୍ୱାସ ଓ କାରିଗରୀ",
-      heading: "କରଣ ଷ୍ଟିଲ୍ ୱାର୍କସ କାହିଁକି ବାଛିବେ?",
-      subheading: "ଦୀର୍ଘ ବର୍ଷର ନିର୍ଭୁଲ କାରିଗରୀ, ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍ ଏବଂ ଉତ୍ତମ ଫିଟିଂ ସୁବିଧା।",
+      badge: "ବିଶ୍ୱାସ ଓ ଅଭିଜ୍ଞତା",
+      heading: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ କାହିଁକି ବାଛିବେ?",
+      subheading: "ଶରତ କରଣଙ୍କ ସଚ୍ଚୋଟ କାରିଗରୀ, ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍ ଏବଂ ଘରର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ସୁବିଧା।",
       items: [
         {
-          title: "ଅସଲି ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍",
-          description: "ଆମେ କେବଳ ପ୍ରାମାଣିକ ଏସ୍‌ଏସ୍ ବ୍ୟବହାର କରୁ ଯାହା ଓଡ଼ିଶାର ଆର୍ଦ୍ର ପାଣିପାଗରେ ମଧ୍ୟ କଦାପି କଳଙ୍କି ଲାଗେ ନାହିଁ।"
+          title: "ନୂଆ ଘରର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ",
+          description: "ଆପଣଙ୍କ ଘରର ସମସ୍ତ ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଫାଇବର କବାଟ ଓ ସିଡ଼ି ରେଲିଂ ଏକାଠି କଣ୍ଟ୍ରାକ୍ଟ ନିଆଯାଏ।"
         },
         {
-          title: "ଚିକ୍କଣ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ",
-          description: "ଆମର ପ୍ରତ୍ୟେକ ଯୋଡ଼କୁ ଆର୍ଗନ୍ ଦ୍ୱାରା ଯୋଡ଼ାଯାଇ ଏପରି ପଲିସ୍ କରାଯାଏ ଯେ ଗଣ୍ଠି ଆଦୌ ଦେଖାଯାଏ ନାହିଁ।"
+          title: "ପ୍ରାମାଣିକ ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍",
+          description: "କେବଳ ଅସଲି ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ ବ୍ୟବହାର କରାଯାଏ, ଯାହା ଜୀବନସାରା କଦାପି କଳଙ୍କି ଲାଗେ ନାହିଁ।"
         },
         {
-          title: "ଘରକୁ ଯାଇ ମାଗଣା ମାପ",
-          description: "ଶରତ ଭାଇ ନିଜେ ଆପଣଙ୍କ ଘରକୁ ଯାଇ ନିର୍ଭୁଲ ମାପ ନିଅନ୍ତି ଏବଂ ଉଚିତ୍ ପରାମର୍ଶ ଦିଅନ୍ତି।"
+          title: "ଶରତ କରଣଙ୍କ ଦ୍ୱାରା ନିଜେ ସାଇଟ୍ ମାପ",
+          description: "ମାଲିକ ନିଜେ ଆପଣଙ୍କ ଘରକୁ ଯାଇ ଠିକ୍ ମାପ ନିଅନ୍ତି ଏବଂ ଉତ୍ତମ ଡିଜାଇନ୍ ପରାମର୍ଶ ଦିଅନ୍ତି।"
         },
         {
-          title: "ସଠିକ୍ ଓ ସୁଲଭ ମୂଲ୍ୟ",
-          description: "ପ୍ରତ୍ୟେକ ବର୍ଗଫୁଟ୍ ବା ଓଜନ ହିସାବରେ ସ୍ୱଚ୍ଛ ଦର, କୌଣସି ଅତିରିକ୍ତ ବା ଲୁକ୍କାୟିତ ଶୁଳ୍କ ନାହିଁ।"
+          title: "ସିଧାସଳଖ ଓ ସ୍ୱଚ୍ଛ ଦର",
+          description: "କୌଣସି ମଧ୍ୟସ୍ଥି ନାହାନ୍ତି । ପ୍ରକୃତ ଷ୍ଟିଲ୍ ଓଜନ ଓ ବର୍ଗଫୁଟ୍ ହିସାବରେ ଶରତ ଭାଇ ସୁଲଭ ମୂଲ୍ୟ ପ୍ରଦାନ କରନ୍ତି।"
         }
       ]
     },
     process: {
-      badge: "ସରଳ କାର୍ଯ୍ୟ ପ୍ରଣାଳୀ",
-      heading: "ଆମେ କିପରି କାମ କରୁ",
-      subheading: "ଫୋନ୍ କଲ୍ ଠାରୁ ଆରମ୍ଭ କରି ଘରେ ଫିଟିଂ ପର୍ଯ୍ୟନ୍ତ ଏକ ସରଳ ୫-ସ୍ତରୀୟ ପ୍ରକ୍ରିୟା।",
+      badge: "ସରଳ ୫-ସ୍ତରୀୟ ପ୍ରକ୍ରିୟା",
+      heading: "ଆମେ କିପରି ଆପଣଙ୍କ କାମ ସମ୍ପୂର୍ଣ୍ଣ କରୁ",
+      subheading: "ହ୍ୱାଟସ୍ଆପ୍ ମେସେଜ୍ ଠାରୁ ଆରମ୍ଭ କରି ଘରେ ମଜବୁତ୍ ଫିଟିଂ ପର୍ଯ୍ୟନ୍ତ ଏକ ସରଳ ପଦ୍ଧତି।",
       steps: [
-        {
-          step: "01",
-          title: "ଫୋନ୍ ବା ହ୍ୱାଟସ୍ଆପ୍",
-          desc: "୮୨୬୦୭୫୦୫୪୬ ରେ କଲ୍ କରନ୍ତୁ ବା ଆପଣଙ୍କ ପସନ୍ଦର ଡିଜାଇନ୍ ଫଟୋ ପଠାନ୍ତୁ।"
-        },
-        {
-          step: "02",
-          title: "ସାଇଟ୍ ପରିଦର୍ଶନ ଓ ମାପ",
-          desc: "ଶରତ ଭାଇ ନିଜେ ଯାଇ ଠିକ୍ ମାପ ନେବେ ଏବଂ ଚୌକାଠ ପରୀକ୍ଷା କରିବେ।"
-        },
-        {
-          step: "03",
-          title: "ଡିଜାଇନ୍ ଓ ଖର୍ଚ୍ଚ ଚୂଡ଼ାନ୍ତ",
-          desc: "ଷ୍ଟିଲ୍ ଗ୍ରେଡ୍, ଲେଜର କଟିଂ ସିଟ୍ ପସନ୍ଦ କରି ଖର୍ଚ୍ଚ ଫାଇନାଲ୍ କରାଯିବ।"
-        },
-        {
-          step: "04",
-          title: "ୱାର୍କସପ୍‌ରେ ନିର୍ମାଣ",
-          desc: "ନିର୍ଭୁଲ କଟିଂ, ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ ଏବଂ ମିରର୍ ପଲିସିଂ ସହିତ କାର୍ଯ୍ୟ ସମ୍ପନ୍ନ।"
-        },
-        {
-          step: "05",
-          title: "ସ୍ଥାନୀୟ ଫିଟିଂ ଓ ହସ୍ତାନ୍ତର",
-          desc: "ଆପଣଙ୍କ ଘରେ ଦୃଢ଼ ବୋଲ୍ଟିଂ ବା ୱେଲ୍ଡିଂ ସହ ସ୍ଥାୟୀ ଫିଟିଂ ପ୍ରଦାନ।"
-        }
+        { step: "01", title: "ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ", desc: "୮୨୬୦୭୫୦୫୪୬ ରେ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ ବା କଲ୍ କରି ଆପଣଙ୍କ କାମ ଜଣାନ୍ତୁ।" },
+        { step: "02", title: "ସାଇଟ୍ ପରିଦର୍ଶନ ଓ ମାପ", desc: "ଶରତ କରଣ ନିଜେ ଯାଇ ଠିକ୍ ମାପ ନେବେ ଏବଂ ଚୌକାଠ ଯାଞ୍ଚ କରିବେ।" },
+        { step: "03", title: "ଡିଜାଇନ୍ ଓ ଦର ଚୂଡ଼ାନ୍ତ", desc: "ଷ୍ଟିଲ୍ ଗ୍ରେଡ୍, ଲେଜର ସିଟ୍, କଲର ପସନ୍ଦ କରି ବ୍ୟକ୍ତିଗତ କୋଟେସନ୍ ସ୍ଥିର ହେବ।" },
+        { step: "04", title: "ୱାର୍କସପ୍‌ରେ ନିର୍ମାଣ", desc: "ନିର୍ଭୁଲ କଟିଂ, ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ ଓ ଚମକଦାର ମିରର୍ ପଲିସିଂ ସହିତ ନିର୍ମାଣ।" },
+        { step: "05", title: "ସ୍ଥାୟୀ ଫିଟିଂ", desc: "ଆପଣଙ୍କ ଘରେ ଦୃଢ଼ ୱେଲ୍ଡିଂ ଓ ବୋଲ୍ଟିଂ ସହ ଆଜୀବନ ସୁରକ୍ଷା ପ୍ରଦାନ।" }
       ]
     },
     contact: {
-      badge: "ଯୋଗାଯୋଗ",
-      heading: "ଶରତ କରଣଙ୍କ ସହ ସିଧାସଳଖ ଯୋଗାଯୋଗ",
-      subheading: "ଆପଣଙ୍କ ଘରର ଗେଟ୍, ଗ୍ରୀଲ୍, ପିଭିସି କବାଟ ବା ୱେଲ୍ଡିଂ କାମ ପାଇଁ କଲ୍ କରନ୍ତୁ।",
-      detailsTitle: "ୱାର୍କସପ୍ ଓ ଯୋଗାଯୋଗ ବିବରଣୀ",
-      ownerLabel: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ କାରିଗର",
-      phoneLabel: "ଫୋନ୍ ଓ ହ୍ୱାଟସ୍ଆପ୍ ନମ୍ବର",
-      locationLabel: "ୱାର୍କସପ୍ ଠିକଣା",
+      badge: "ସିଧାସଳଖ ଯୋଗାଯୋଗ",
+      heading: "ଶରତ କରଣଙ୍କ ସହ ଯୋଗାଯୋଗ",
+      subheading: "ଯେକୌଣସି ଫ୍ୟାବ୍ରିକେସନ୍ କାମ ବା ଘର କଣ୍ଟ୍ରାକ୍ଟ ପାଇଁ କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନକୁ କଲ୍ ବା ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ।",
+      shopTitle: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ ୱାର୍କସପ୍",
+      ownerTitle: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ କଣ୍ଟ୍ରାକ୍ଟର",
+      phoneTitle: "ମୁଖ୍ୟ ଫୋନ୍ ଓ ହ୍ୱାଟସ୍ଆପ୍ ନମ୍ବର",
+      addressTitle: "ୱାର୍କସପ୍ ଠିକଣା",
       hoursTitle: "ୱାର୍କସପ୍ ଖୋଲା ସମୟ",
-      formTitle: "କାମ ପାଇଁ ଅନୁରୋଧ ପଠାନ୍ତୁ",
-      formSubtitle: "ବିବରଣୀ ପୂରଣ କରନ୍ତୁ, ଶରତ ଭାଇ ତୁରନ୍ତ ଆପଣଙ୍କୁ ଯୋଗାଯୋଗ କରିବେ।",
-      nameLabel: "ଆପଣଙ୍କ ନାମ",
-      namePlaceholder: "ଉଦାହରଣ: ବିଥଲ ସାହୁ",
-      phoneFieldLabel: "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର",
-      phonePlaceholder: "ଉଦାହରଣ: ୯୮୭୬୫୪୩୨୧୦",
-      itemTypeLabel: "କେଉଁ ସାମଗ୍ରୀ ଦରକାର",
-      locationFieldLabel: "ଆପଣଙ୍କ ଗ୍ରାମ / ସହର / ଅଞ୍ଚଳ",
-      locationFieldPlaceholder: "ଉଦାହରଣ: ବାଣପୁର, ବାଲୁଗାଁ, ନାଚୁଣୀ...",
-      msgLabel: "କାମର ବିବରଣୀ ବା ମାପ",
-      msgPlaceholder: "କେଉଁ କାମ ଦରକାର ଲେଖନ୍ତୁ (ଉଦାହରଣ: ୧୦x୭ ଫୁଟ୍ ମୁଖ୍ୟ ଗେଟ୍, ୩ଟି ପିଭିସି କବାଟ)...",
-      submitBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଅନୁରୋଧ ପଠାନ୍ତୁ",
-      thankYou: "ଧନ୍ୟବାଦ, {name}!",
-      thankYouMsg: "'{item}' ପାଇଁ ଆପଣଙ୍କ ଅନୁରୋଧ ପ୍ରସ୍ତୁତ ହୋଇଛି।",
-      forwardWhatsapp: "ଶରତ ଭାଇଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ",
-      anotherInquiry: "ଅନ୍ୟ ଏକ ଅନୁରୋଧ କରନ୍ତୁ",
-      spamNotice: "ମାଲିକ ଶରତ କରଣଙ୍କ ଦ୍ୱାରା ପ୍ରତ୍ୟକ୍ଷ ସହାୟତା। ୧୦୦% ସଚ୍ଚୋଟ ସେବା।"
+      openDaily: "ସପ୍ତାହର ୭ ଦିନ ଖୋଲା: ସକାଳ ୮:୦୦ – ରାତି ୮:୩୦",
+      callNowBtn: "କଲ୍ କରନ୍ତୁ (୮୨୬୦୭୫୦୫୪୬)",
+      whatsappBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ କଥା ହୁଅନ୍ତୁ"
     },
     footer: {
-      tagline: "କରଣ ଷ୍ଟିଲ୍ & ଫ୍ୟାବ୍ରିକେସନ୍ ୱାର୍କସ • ମାଲିକ: ଶରତ କରଣ • ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା।",
+      tagline: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ (Krushna Fabrication) • ମାଲିକ: ଶରତ କରଣ • ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା।",
       quickLinks: "କ୍ୱିକ୍ ଲିଙ୍କ୍",
       contactUs: "ଯୋଗାଯୋଗ",
       backToTop: "ଉପରକୁ ଯାଆନ୍ତୁ",
-      copyright: "© ୨୦୨୬ କରଣ ଷ୍ଟିଲ୍ & ଫ୍ୟାବ୍ରିକେସନ୍ ୱାର୍କସ। ସର୍ବସ୍ୱତ୍ୱ ସଂରକ୍ଷିତ। ପରିଚାଳକ: ଶରତ କରଣ।"
+      copyright: "© ୨୦୨୬ କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ। ସର୍ବସ୍ୱତ୍ୱ ସଂରକ୍ଷିତ। ପରିଚାଳକ: ଶରତ କରଣ।"
     },
     mobileBar: {
       call: "କଲ୍: ୮୨୬୦୭୫୦୫୪୬",
-      whatsapp: "ହ୍ୱାଟସ୍ଆପ୍ ଡିଜାଇନ୍"
+      whatsapp: "ହ୍ୱାଟସ୍ଆପ୍ ଆବଶ୍ୟକତା"
     },
     whatsappMsgs: {
-      general: "ନମସ୍କାର ଶରତ ଭାଇ (କରଣ ଷ୍ଟିଲ୍ ୱାର୍କସ), ମୁଁ ଘରର ଷ୍ଟିଲ୍ ଗେଟ୍ / ଗ୍ରୀଲ୍ / ପିଭିସି କବାଟ କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।",
-      quote: "ନମସ୍କାର ଶରତ ଭାଇ, ମୁଁ {item} ପାଇଁ ଆନୁମାନିକ ଖର୍ଚ୍ଚ ଜାଣିବାକୁ ଚାହୁଁଛି (ମାପ: {size})।",
-      designInquiry: "ନମସ୍କାର ଶରତ ଭାଇ, ମୁଁ ୱେବସାଇଟ୍‌ରେ '{title}' ଡିଜାଇନ୍ ଦେଖିଲି, ଏହାର ଦର ଓ ଫିଟିଂ ବିଷୟରେ ଜଣାନ୍ତୁ।",
-      ownerDirect: "ନମସ୍କାର ଶରତ ଭାଇ, ଆମ ଘରେ ମାପ ନେବା ଓ ଆଲୋଚନା ପାଇଁ ଆପଣଙ୍କୁ ନିମନ୍ତ୍ରଣ କରୁଛି।"
+      general: "ନମସ୍କାର ଶରତ ଭାଇ (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ), ମୁଁ ଘରର ଷ୍ଟିଲ୍ ଗେଟ୍ / ଗ୍ରୀଲ୍ / କବାଟ କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।",
+      requirement: "*କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ - କାର୍ଯ୍ୟ ଆବଶ୍ୟକତା*\n*ନାମ:* {name}\n*ଫୋନ୍:* {phone}\n*ଗ୍ରାମ/ଅଞ୍ଚଳ:* {location}\n*ଆବଶ୍ୟକ କାମ:* {works}\n*ବିବରଣୀ:* {details}",
+      directOwner: "ନମସ୍କାର ଶରତ ଭାଇ, ଆମ ଘରେ ସାଇଟ୍ ମାପ ନେବା ଓ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ଆଲୋଚନା ପାଇଁ ଆପଣଙ୍କୁ ନିମନ୍ତ୍ରଣ କରୁଛି।"
     }
   }
 };

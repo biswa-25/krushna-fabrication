@@ -6,7 +6,7 @@
   html {
     font-family: 'Inter', 'Noto Sans Oriya', system-ui, -apple-system, sans-serif;
     scroll-behavior: smooth;
-    color-scheme: light;
+    color-scheme: dark;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -16,53 +16,68 @@
 
   body {
     overflow-x: hidden;
-    background-color: #f8fafc;
-    color: #0f172a;
+    background-color: #070a0f;
+    color: #f8fafc;
   }
 }
 
-/* Glass Header */
-.glass-nav-steel {
-  background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+/* Visiting Card Metallic Panel */
+.card-metallic-panel {
+  background: radial-gradient(circle at 50% 0%, #162032 0%, #0b1019 75%, #070a0f 100%);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 12px 35px -5px rgba(0, 0, 0, 0.7), 0 0 20px rgba(245, 158, 11, 0.12);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Steel Mesh Grid Pattern */
-.steel-grid-pattern {
-  background-color: #f8fafc;
-  background-image: radial-gradient(rgba(2, 132, 199, 0.08) 1.2px, transparent 0);
-  background-size: 26px 26px;
+.card-metallic-panel:hover {
+  border-color: rgba(245, 158, 11, 0.65);
+  box-shadow: 0 16px 40px -5px rgba(0, 0, 0, 0.8), 0 0 30px rgba(245, 158, 11, 0.22);
 }
 
-/* Light Metallic Cards */
-.steel-card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+/* Glass Header for Card Style */
+.glass-nav-card {
+  background: rgba(11, 16, 25, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.25);
 }
 
-.steel-card:hover {
-  border-color: #0284c7;
-  transform: translateY(-4px);
-  box-shadow: 0 18px 32px -10px rgba(2, 132, 199, 0.14), 0 8px 12px -6px rgba(15, 23, 42, 0.04);
+/* Industrial Grid Mesh with Spark Ambience */
+.industrial-spark-pattern {
+  background-color: #070a0f;
+  background-image: 
+    radial-gradient(rgba(245, 158, 11, 0.12) 1.5px, transparent 0),
+    radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.06) 0%, transparent 50%);
+  background-size: 28px 28px, 100% 100%, 100% 100%;
 }
 
-/* Custom Scrollbar */
+/* Glowing text effects like on visiting card */
+.text-spark-gold {
+  color: #fbbf24;
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
+}
+
+.text-spark-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #ea580c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #0b1019;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #23324a;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0284c7;
+  background: #f59e0b;
 }
