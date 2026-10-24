@@ -158,7 +158,7 @@ export default function Estimator() {
             </button>
 
             <p className="text-center text-[11px] text-steel-500 font-medium">
-              * Sarat Bhai offers free on-site measurement to verify final dimensions and exact material gauge.
+              * Krushna Bhai offers free on-site measurement to verify final dimensions and exact material gauge.
             </p>
 
           </form>

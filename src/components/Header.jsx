@@ -64,7 +64,7 @@ export default function Header() {
                 {language === 'or' ? "କୃଷ୍ଣ" : "Krushna"} <span className="text-spark-gold">{language === 'or' ? "ଫ୍ୟାବ୍ରିକେସନ" : "Fabrication"}</span>
               </span>
               <span className="block text-[10px] uppercase tracking-widest text-amber-400 font-bold">
-                {language === 'or' ? "ବାଣପୁର • ଶରତ କରଣ" : "Banapur • Sarat Karan"}
+                {language === 'or' ? "ବାଣପୁର • କୃଷ୍ଣ କରଣ" : "Banapur • Krushna Karan"}
               </span>
             </div>
           </a>

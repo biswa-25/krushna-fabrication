@@ -28,7 +28,7 @@ export default function Hero() {
 
               <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-cardDark-850 border border-amber-500/40 text-amber-300 text-xs font-black">
                 <MapPin className="w-3.5 h-3.5 text-spark-gold" />
-                <span>{language === 'or' ? "ବିହାରପୁର ଛକ, ବାଣପୁର" : "Biharpur Chhak, Banapur"}</span>
+                <span>{language === 'or' ? "ବିଧାରପୁର ଛକ, ବାଣପୁର" : "Bidharpur Chhak, Banapur"}</span>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export default function Hero() {
                   <span className="text-spark-gradient drop-shadow-md">କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ</span>
                   <br />
                   <span className="text-xl sm:text-2xl lg:text-3xl text-amber-200/90 font-bold block mt-1">
-                    ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।
+                    ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, UPVC ଓ ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।
                   </span>
                 </>
               ) : (
@@ -47,7 +47,7 @@ export default function Hero() {
                   <span className="text-spark-gradient drop-shadow-md">Krushna Fabrication</span>
                   <br />
                   <span className="text-xl sm:text-2xl lg:text-3xl text-amber-200/90 font-bold block mt-1">
-                    All Types of Steel, G.I., Aluminium & Iron Works
+                    All Types of Steel, G.I., Aluminium, UPVC & Iron Works
                   </span>
                 </>
               )}
@@ -83,7 +83,7 @@ export default function Hero() {
             <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-200 mb-6 bg-cardDark-900 px-3.5 py-1.5 rounded-xl border border-amber-500/30">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
               <span>
-                {language === 'or' ? "ମାଲିକ: ଶରତ କରଣ" : "Owner & Lead Contractor: Sarat Karan"}
+                {language === 'or' ? "ମାଲିକ: କୃଷ୍ଣ କରଣ" : "Owner & Lead Contractor: Krushna Karan"}
               </span>
               <span className="text-slate-500">•</span>
               <span className="text-spark-gold font-black">Mob: 8260750546</span>
@@ -130,7 +130,7 @@ export default function Hero() {
               <span>•</span>
               <div className="flex items-center gap-1.5 text-slate-300">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                <span>{language === 'or' ? "ବାଣପୁର ବିହାରପୁର ଛକ" : "Biharpur Chhak, Banapur"}</span>
+                <span>{language === 'or' ? "ବାଣପୁର ବିଧାରପୁର ଛକ" : "Bidharpur Chhak, Banapur"}</span>
               </div>
             </div>
 
@@ -198,7 +198,7 @@ export default function Hero() {
                   {language === 'or' ? "ଆମ ୱାର୍କସପ୍ ଓ ଶପ୍" : "Our Workshop & Shop"}
                 </span>
                 <span className="text-xs font-black text-white block">
-                  {language === 'or' ? "ବିହାରପୁର ଛକ, ବାଣପୁର" : "Biharpur Chhak, Banapur"}
+                  {language === 'or' ? "ବିଧାରପୁର ଛକ, ବାଣପୁର" : "Bidharpur Chhak, Banapur"}
                 </span>
                 <span className="text-[10px] text-slate-400">
                   {language === 'or' ? "ସମସ୍ତ ଷ୍ଟିଲ୍ ଓ ୟୁପିଭିସି ସାମଗ୍ରୀ ଉପଲବ୍ଧ" : "All Steel & UPVC Materials In Stock"}

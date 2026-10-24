@@ -229,7 +229,7 @@ export default function Catalog() {
               </div>
 
               <a
-                href={getWhatsAppLink(`Hello Sarat Bhai, I saw this work '${currentItem.title}' on your website and want to discuss for my house.`)}
+                href={getWhatsAppLink(`Hello Krushna Bhai, I saw this work '${currentItem.title}' on your website and want to discuss for my house.`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold text-xs sm:text-sm shadow-md transition-all active:scale-95"

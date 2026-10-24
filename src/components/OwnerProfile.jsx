@@ -20,7 +20,7 @@ export default function OwnerProfile() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-amber-500/40 bg-cardDark-950 ring-1 ring-amber-500/20">
                 <img
                   src={assets.ownerPhoto}
-                  alt="Sarat Karan - Owner of Krushna Fabrication"
+                  alt="Krushna Karan - Owner of Krushna Fabrication"
                   className="w-full h-[470px] object-cover object-center filter contrast-105"
                   loading="lazy"
                 />

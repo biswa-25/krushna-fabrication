@@ -119,7 +119,7 @@ export default function Contact() {
                 </div>
                 <div className="flex-1">
                   <div className="text-xs uppercase font-bold text-slate-400">
-                    WhatsApp (Sarat Karan)
+                    WhatsApp (Krushna Karan)
                   </div>
                   <a
                     href={getWhatsAppLink(t.whatsappMsgs.general)}
@@ -205,7 +205,7 @@ export default function Contact() {
                 {language === 'or' ? "ସାଇଟ୍ ମାପ ଓ କଣ୍ଟ୍ରାକ୍ଟ ଅନୁରୋଧ" : "Request Free Site Visit & Measurement"}
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 mb-6 font-normal">
-                {language === 'or' ? "ବିବରଣୀ ପୂରଣ କରନ୍ତୁ, ଶରତ କରଣ ନିଜେ ଆପଣଙ୍କୁ ଯୋଗାଯୋଗ କରିବେ।" : "Fill in your details and Sarat Karan will contact you directly."}
+                {language === 'or' ? "ବିବରଣୀ ପୂରଣ କରନ୍ତୁ, କୃଷ୍ଣ କରଣ ନିଜେ ଆପଣଙ୍କୁ ଯୋଗାଯୋଗ କରିବେ।" : "Fill in your details and Krushna Karan will contact you directly."}
               </p>
 
               {formSubmitted ? (
@@ -230,7 +230,7 @@ export default function Contact() {
                       className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold text-sm shadow-md transition-all"
                     >
                       <MessageSquare className="w-4 h-4 fill-current" />
-                      <span>{language === 'or' ? "ଶରତ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ" : "Forward to Sarat Karan on WhatsApp"}</span>
+                      <span>{language === 'or' ? "କୃଷ୍ଣ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ" : "Forward to Krushna Karan on WhatsApp"}</span>
                     </button>
                     
                     <button
@@ -349,8 +349,8 @@ export default function Contact() {
 
                   <p className="text-center text-xs text-amber-300/80 pt-1 font-medium">
                     {language === 'or' 
-                      ? "ଶରତ କରଣଙ୍କ ଦ୍ୱାରା ପ୍ରତ୍ୟକ୍ଷ ସହାୟତା । କୌଣସି ମଧ୍ୟସ୍ଥି ନାହାନ୍ତି ।" 
-                      : "Direct assistance from owner Sarat Karan. No middleman."
+                      ? "କୃଷ୍ଣ କରଣଙ୍କ ଦ୍ୱାରା ପ୍ରତ୍ୟକ୍ଷ ସହାୟତା । କୌଣସି ମଧ୍ୟସ୍ଥି ନାହାନ୍ତି ।" 
+                      : "Direct assistance from owner Krushna Karan. No middleman."
                     }
                   </p>
 

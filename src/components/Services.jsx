@@ -52,8 +52,8 @@ export default function Services() {
           {t.services.items.map((service, index) => {
             const Icon = serviceIcons[service.id] || Shield;
             const waMessage = language === 'or'
-              ? `ନମସ୍କାର ଶରତ ଭାଇ (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ), ମୁଁ '${service.title}' କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।`
-              : `Hello Sarat Bhai (Krushna Fabrication), I want to enquire about '${service.title}' work for my building.`;
+              ? `ନମସ୍କାର କୃଷ୍ଣ ଭାଇ (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ), ମୁଁ '${service.title}' କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।`
+              : `Hello Krushna Bhai (Krushna Fabrication), I want to enquire about '${service.title}' work for my building.`;
             const enquiryLink = getWhatsAppLink(waMessage);
 
             const serviceItem = servicesList.find((s) => s.id === service.id);

@@ -1,7 +1,7 @@
 /**
  * =========================================================================
  * KRUSHNA FABRICATION (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) - BILINGUAL TRANSLATIONS
- * Owner & Contractor: Sarat Karan | Mobile & WhatsApp: 8260750546
+ * Owner & Contractor: Krushna Karan | Mobile & WhatsApp: 8260750546
  * =========================================================================
  */
 
@@ -24,12 +24,12 @@ export const translations = {
       whatsappUs: "WhatsApp Us"
     },
     hero: {
-      badge: "Biharpur Chhak, Banapur • Sarat Karan",
+      badge: "Bidharpur Chhak, Banapur • Krushna Karan",
       name: "Krushna Fabrication",
-      tagline: "All Types of Steel, G.I., Aluminium & Iron Works",
+      tagline: "All Types of Steel, G.I., Aluminium, UPVC & Iron Works",
       subheadline: "Steel Gate, Window Grill, UPVC/WPVC Doors, Fiber Doors, Aluminium Windows & Upstairs Railings",
       contractBadge: "Full House & Building Fabrication Contracts Undertaken",
-      contractDesc: "We take complete contracts for new houses and buildings. Tell us what you need, and Sarat Karan will personally visit your site, take exact measurements, and provide your individual quotation.",
+      contractDesc: "We take complete contracts for new houses and buildings. Tell us what you need, and Krushna Karan will personally visit your site, take exact measurements, and provide your individual quotation.",
       sendReqBtn: "WhatsApp Your Requirement",
       callBtn: "Call 8260750546",
       viewWorkBtn: "View Real Samples",
@@ -42,14 +42,14 @@ export const translations = {
       subheading: "Tap to enlarge, save, or directly call/WhatsApp the phone number printed on the card.",
       callDirect: "Call Printed Number: 8260750546",
       wpDirect: "WhatsApp Printed Number",
-      addressPrinted: "Biharpur Chhak, Banapur, Odisha"
+      addressPrinted: "Bidharpur Chhak, Banapur, Odisha"
     },
     owner: {
       badge: "Workshop Owner & Contractor",
-      heading: "Sarat Karan",
+      heading: "Krushna Karan",
       title: "Owner & Master Fabricator - Krushna Fabrication",
       experience:
-        "Sarat Karan has decades of trusted local experience in Banapur undertaking house contracts for high-grade Stainless Steel (SS 304) gates, security grills, designer UPVC/WPVC doors, waterproof polymer fiber doors, and precision argon arc welding.",
+        "Krushna Karan has decades of trusted local experience in Banapur undertaking house contracts for high-grade Stainless Steel (SS 304) gates, security grills, designer UPVC/WPVC doors, waterproof polymer fiber doors, and precision argon arc welding.",
       quote:
         "We take complete building contracts with pride. From taking measurements at your site to delivering rock-solid fitting, we make sure your home gets the strongest safety and modern beauty at honest rates.",
       contractOffer: "Specialist in Complete Building & House Fabrication Contracts",
@@ -59,8 +59,8 @@ export const translations = {
         "Free on-site visit and measurement at your building",
         "Individual calculations and transparent pricing with no middleman"
       ],
-      callDirect: "Call Sarat Karan (8260750546)",
-      whatsappDirect: "Send Requirement to Sarat Karan"
+      callDirect: "Call Krushna Karan (8260750546)",
+      whatsappDirect: "Send Requirement to Krushna Karan"
     },
     services: {
       badge: "Works We Do",
@@ -124,13 +124,13 @@ export const translations = {
       subheading: "Take a look at real photos of our gates, safety doors, railings, and workshop in Banapur.",
       categories: ["All", "Steel Gates", "Doors", "Grills", "Upstairs Railing", "Workshop"],
       counterOf: "of",
-      askPriceForDesign: "Send Photo to Sarat Karan on WhatsApp for Details",
+      askPriceForDesign: "Send Photo to Krushna Karan on WhatsApp for Details",
       viewFullscreen: "Click to View Details"
     },
     requirementForm: {
       badge: "Send Your Requirement",
       heading: "Tell Us What You Need",
-      subheading: "Select your required works below and write approximate details. Your message will be forwarded directly to Sarat Karan on WhatsApp (8260750546), and he will calculate and provide your quote individually!",
+      subheading: "Select your required works below and write approximate details. Your message will be forwarded directly to Krushna Karan on WhatsApp (8260750546), and he will calculate and provide your quote individually!",
       nameLabel: "Your Name",
       namePlaceholder: "e.g. Rahul Mishra",
       phoneLabel: "Your Phone Number",
@@ -140,14 +140,14 @@ export const translations = {
       selectWorkLabel: "Select Work(s) Needed",
       detailsLabel: "Requirement Details / Dimensions",
       detailsPlaceholder: "Describe your requirement (e.g. 1 main gate 10x7 ft, 4 window grills, 2 fiber bathroom doors, upstairs railing)...",
-      submitBtn: "Send Requirement to Sarat Karan on WhatsApp",
+      submitBtn: "Send Requirement to Krushna Karan on WhatsApp",
       contractBadge: "We Take Full Building Fabrication Contracts",
-      note: "* Sarat Karan will review your message, calculate exact materials and labor, and reply back to you individually with the best price!"
+      note: "* Krushna Karan will review your message, calculate exact materials and labor, and reply back to you individually with the best price!"
     },
     whyUs: {
       badge: "Trust & Experience",
       heading: "Why Choose Krushna Fabrication?",
-      subheading: "Honest local craftsmanship by Sarat Karan, certified Grade 304 steel, and complete house contracts.",
+      subheading: "Honest local craftsmanship by Krushna Karan, certified Grade 304 steel, and complete house contracts.",
       items: [
         {
           title: "Full Building Contract",
@@ -158,12 +158,12 @@ export const translations = {
           description: "We use only genuine stainless steel that resists rust, discoloration, and weather damage for a lifetime."
         },
         {
-          title: "Personal Measurement by Sarat Karan",
+          title: "Personal Measurement by Krushna Karan",
           description: "The owner personally visits your construction site to take exact measurements and guide the best design."
         },
         {
           title: "Direct Individual Pricing",
-          description: "No middlemen or inflated estimates. Sarat Karan calculates based on actual steel weight and square footage."
+          description: "No middlemen or inflated estimates. Krushna Karan calculates based on actual steel weight and square footage."
         }
       ]
     },
@@ -173,7 +173,7 @@ export const translations = {
       subheading: "From your initial WhatsApp message to flawless fitting at your doorstep.",
       steps: [
         { step: "01", title: "Send Requirement", desc: "WhatsApp 8260750546 with your building needs or design photos." },
-        { step: "02", title: "Free Site Measurement", desc: "Sarat Karan visits your site in Banapur/nearby areas to take exact measurements." },
+        { step: "02", title: "Free Site Measurement", desc: "Krushna Karan visits your site in Banapur/nearby areas to take exact measurements." },
         { step: "03", title: "Design & Quote Approval", desc: "Finalize steel grade, laser sheets, colors, and agreed individual quotation." },
         { step: "04", title: "Workshop Fabrication", desc: "Precision cutting, argon welding, buffing, and high-gloss polishing in our shop." },
         { step: "05", title: "Permanent Fitting", desc: "Solid on-site bolting and welding for lifetime strength and safety." }
@@ -181,7 +181,7 @@ export const translations = {
     },
     contact: {
       badge: "Direct Contact",
-      heading: "Contact Sarat Karan",
+      heading: "Contact Krushna Karan",
       subheading: "Call or message Krushna Fabrication for any fabrication requirement or building contract.",
       shopTitle: "Krushna Fabrication Workshop",
       ownerTitle: "Owner & Lead Contractor",
@@ -193,20 +193,20 @@ export const translations = {
       whatsappBtn: "Chat on WhatsApp"
     },
     footer: {
-      tagline: "Krushna Fabrication (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) • Owner: Sarat Karan • Biharpur Chhak, Banapur, Odisha.",
+      tagline: "Krushna Fabrication (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) • Owner: Krushna Karan • Bidharpur Chhak, Banapur, Odisha.",
       quickLinks: "Quick Links",
       contactUs: "Contact",
       backToTop: "Back to top",
-      copyright: "© 2026 Krushna Fabrication. All rights reserved. Managed by Sarat Karan."
+      copyright: "© 2026 Krushna Fabrication. All rights reserved. Managed by Krushna Karan."
     },
     mobileBar: {
       call: "Call 8260750546",
       whatsapp: "WhatsApp Requirement"
     },
     whatsappMsgs: {
-      general: "Hello Sarat Bhai (Krushna Fabrication), I want to discuss Steel Gate / Grill / Door work for my building.",
+      general: "Hello Krushna Bhai (Krushna Fabrication), I want to discuss Steel Gate / Grill / Door work for my building.",
       requirement: "*Krushna Fabrication - Work Requirement*\n*Name:* {name}\n*Phone:* {phone}\n*Location:* {location}\n*Works Needed:* {works}\n*Details:* {details}",
-      directOwner: "Hello Sarat Bhai, I want to invite you to our construction site for measurement and fabrication contract discussion."
+      directOwner: "Hello Krushna Bhai, I want to invite you to our construction site for measurement and fabrication contract discussion."
     }
   },
 
@@ -228,12 +228,12 @@ export const translations = {
       whatsappUs: "ହ୍ୱାଟସ୍ଆପ୍"
     },
     hero: {
-      badge: "ବିହାରପୁର ଛକ, ବାଣପୁର • ଶରତ କରଣ",
+      badge: "ବିଧାରପୁର ଛକ, ବାଣପୁର • କୃଷ୍ଣ କରଣ",
       name: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ",
-      tagline: "ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।",
+      tagline: "ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, UPVC ଓ ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।",
       subheadline: "ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି କବାଟ, ଫାଇବର କବାଟ, ଆଲୁମିନିୟମ୍ ଝରକା ଓ ସିଡ଼ି ରେଲିଂ",
       contractBadge: "ନୂତନ ଘର ଓ କୋଠାର ସମ୍ପୂର୍ଣ୍ଣ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନିଆଯାଏ",
-      contractDesc: "ଆମେ ନୂଆ ଘରର ସମସ୍ତ ଗେଟ୍, ଗ୍ରୀଲ୍, କବାଟ ଓ ଝରକା କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ । ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ, ଶରତ କରଣ ନିଜେ ଯାଇ ମାପ ନେଇ ଉଚିତ୍ ଦର ଜଣାଇବେ ।",
+      contractDesc: "ଆମେ ନୂଆ ଘରର ସମସ୍ତ ଗେଟ୍, ଗ୍ରୀଲ୍, କବାଟ ଓ ଝରକା କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ । ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ, କୃଷ୍ଣ କରଣ ନିଜେ ଯାଇ ମାପ ନେଇ ଉଚିତ୍ ଦର ଜଣାଇବେ ।",
       sendReqBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ",
       callBtn: "କଲ୍ କରନ୍ତୁ: ୮୨୬୦୭୫୦୫୪୬",
       viewWorkBtn: "ପ୍ରକୃତ କାମର ଫଟୋ ଦେଖନ୍ତୁ",
@@ -246,14 +246,14 @@ export const translations = {
       subheading: "କାର୍ଡକୁ ବଡ଼ କରି ଦେଖନ୍ତୁ କିମ୍ବା କାର୍ଡରେ ଥିବା ନମ୍ବରରେ ସିଧାସଳଖ କଲ୍ / ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ।",
       callDirect: "କାର୍ଡ ନମ୍ବରରେ କଲ୍: ୮୨୬୦୭୫୦୫୪୬",
       wpDirect: "କାର୍ଡ ନମ୍ବରରେ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ",
-      addressPrinted: "ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା"
+      addressPrinted: "ବିଧାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା"
     },
     owner: {
       badge: "ୱାର୍କସପ୍ ମାଲିକ ଓ କଣ୍ଟ୍ରାକ୍ଟର",
-      heading: "ଶରତ କରଣ (Sarat Karan)",
+      heading: "କୃଷ୍ଣ କରଣ (Krushna Karan)",
       title: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟର - କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ",
       experience:
-        "ବାଣପୁର ଅଞ୍ଚଳରେ ଦୀର୍ଘ ବର୍ଷର ଅଭିଜ୍ଞତା ସହିତ ଶରତ କରଣ ନୂଆ ଘର ଓ ବିଲ୍ଡିଂର ସମସ୍ତ ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି କବାଟ, ପାଣି ନିରୋଧକ ଫାଇବର କବାଟ ଏବଂ ନିର୍ଭୁଲ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଇଥାନ୍ତି।",
+        "ବାଣପୁର ଅଞ୍ଚଳରେ ଦୀର୍ଘ ବର୍ଷର ଅଭିଜ୍ଞତା ସହିତ କୃଷ୍ଣ କରଣ ନୂଆ ଘର ଓ ବିଲ୍ଡିଂର ସମସ୍ତ ଷ୍ଟିଲ୍ ଗେଟ୍, ଝରକା ଗ୍ରୀଲ୍, ୟୁପିଭିସି/ଡବ୍ଲୁପିଭିସି କବାଟ, ପାଣି ନିରୋଧକ ଫାଇବର କବାଟ ଏବଂ ନିର୍ଭୁଲ ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ କାମର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ନେଇଥାନ୍ତି।",
       quote:
         "ଆମେ ଗର୍ବର ସହ ନୂଆ ଘରର ସମସ୍ତ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ । ସାଇଟ୍‌କୁ ଯାଇ ଠିକ୍ ମାପ ନେବା ଠାରୁ ଆରମ୍ଭ କରି ମଜବୁତ୍ ଫିଟିଂ ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତ କାର୍ଯ୍ୟ ଉଚିତ୍ ଦରରେ ଯତ୍ନ ସହକାରେ କରିଥାଉ।",
       contractOffer: "ସମସ୍ତ ନୂତନ କୋଠା ଓ ଘରର ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ସୁବିଧା",
@@ -263,8 +263,8 @@ export const translations = {
         "ଘରକୁ ଯାଇ ମାଗଣାରେ ସାଇଟ୍ ମାପ ନେବା ସୁବିଧା",
         "କୌଣସି ମଧ୍ୟସ୍ଥି ନାହିଁ — ସିଧାସଳଖ ହିସାବ ଓ ସୁଲଭ ମୂଲ୍ୟ"
       ],
-      callDirect: "ଶରତ କରଣଙ୍କୁ କଲ୍ କରନ୍ତୁ (୮୨୬୦୭୫୦୫୪୬)",
-      whatsappDirect: "ଶରତ କରଣଙ୍କୁ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ"
+      callDirect: "କୃଷ୍ଣ କରଣଙ୍କୁ କଲ୍ କରନ୍ତୁ (୮୨୬୦୭୫୦୫୪୬)",
+      whatsappDirect: "କୃଷ୍ଣ କରଣଙ୍କୁ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ"
     },
     services: {
       badge: "ଆମ କାମସମୂହ",
@@ -328,13 +328,13 @@ export const translations = {
       subheading: "ବାଣପୁରସ୍ଥିତ ଆମ ୱାର୍କସପ୍ ଓ ଆମ ଦ୍ୱାରା ତିଆରି ଗେଟ୍, ସୁରକ୍ଷା କବାଟ, ରେଲିଂର ପ୍ରକୃତ ଫଟୋ ଦେଖନ୍ତୁ।",
       categories: ["All", "Steel Gates", "Doors", "Grills", "Upstairs Railing", "Workshop"],
       counterOf: "ରୁ",
-      askPriceForDesign: "ଏହି ଡିଜାଇନ୍ ବିଷୟରେ ଜାଣିବାକୁ ଶରତ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ",
+      askPriceForDesign: "ଏହି ଡିଜାଇନ୍ ବିଷୟରେ ଜାଣିବାକୁ କୃଷ୍ଣ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ",
       viewFullscreen: "ସମ୍ପୂର୍ଣ୍ଣ ଫଟୋ ଦେଖନ୍ତୁ"
     },
     requirementForm: {
       badge: "ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ",
       heading: "ଆପଣଙ୍କୁ କେଉଁ କାମ ଦରକାର ଜଣାନ୍ତୁ",
-      subheading: "ତଳେ ଆପଣଙ୍କୁ ଆବଶ୍ୟକ ଥିବା କାମ ବାଛନ୍ତୁ ଏବଂ ବିବରଣୀ ଲେଖନ୍ତୁ । ଏହା ସିଧାସଳଖ ଶରତ କରଣଙ୍କ ହ୍ୱାଟସ୍ଆପ୍ (୮୨୬୦୭୫୦୫୪୬) କୁ ପହଞ୍ଚିବ ଏବଂ ସେ ନିଜେ ହିସାବ କରି ଆପଣଙ୍କୁ ଉଚିତ୍ ଦର ଜଣାଇବେ!",
+      subheading: "ତଳେ ଆପଣଙ୍କୁ ଆବଶ୍ୟକ ଥିବା କାମ ବାଛନ୍ତୁ ଏବଂ ବିବରଣୀ ଲେଖନ୍ତୁ । ଏହା ସିଧାସଳଖ କୃଷ୍ଣ କରଣଙ୍କ ହ୍ୱାଟସ୍ଆପ୍ (୮୨୬୦୭୫୦୫୪୬) କୁ ପହଞ୍ଚିବ ଏବଂ ସେ ନିଜେ ହିସାବ କରି ଆପଣଙ୍କୁ ଉଚିତ୍ ଦର ଜଣାଇବେ!",
       nameLabel: "ଆପଣଙ୍କ ନାମ",
       namePlaceholder: "ଉଦାହରଣ: ରାହୁଲ ମିଶ୍ର",
       phoneLabel: "ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର",
@@ -344,14 +344,14 @@ export const translations = {
       selectWorkLabel: "କେଉଁ କାମ ଦରକାର ବାଛନ୍ତୁ",
       detailsLabel: "କାମର ବିବରଣୀ ବା ଆନୁମାନିକ ମାପ",
       detailsPlaceholder: "ଉଦାହରଣ: ୧ଟି ୧୦x୭ ଫୁଟ୍ ମୁଖ୍ୟ ଗେଟ୍, ୪ଟି ଝରକା ଗ୍ରୀଲ୍, ୨ଟି ଫାଇବର କବାଟ, ସିଡ଼ି ରେଲିଂ...",
-      submitBtn: "ଶରତ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ",
+      submitBtn: "କୃଷ୍ଣ କରଣଙ୍କୁ ହ୍ୱାଟସ୍ଆପ୍‌ରେ ପଠାନ୍ତୁ",
       contractBadge: "ଆମେ ନୂଆ ଘରର ସମ୍ପୂର୍ଣ୍ଣ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନେଉ",
-      note: "* ଶରତ କରଣ ଆପଣଙ୍କ ମେସେଜ୍ ଦେଖି ମେଟେରିଆଲ୍ ଓ ମଜୁରୀ ହିସାବ କରି ଆପଣଙ୍କୁ ବ୍ୟକ୍ତିଗତ ଭାବେ ଉତ୍ତମ ଦର ଜଣାଇବେ!"
+      note: "* କୃଷ୍ଣ କରଣ ଆପଣଙ୍କ ମେସେଜ୍ ଦେଖି ମେଟେରିଆଲ୍ ଓ ମଜୁରୀ ହିସାବ କରି ଆପଣଙ୍କୁ ବ୍ୟକ୍ତିଗତ ଭାବେ ଉତ୍ତମ ଦର ଜଣାଇବେ!"
     },
     whyUs: {
       badge: "ବିଶ୍ୱାସ ଓ ଅଭିଜ୍ଞତା",
       heading: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ କାହିଁକି ବାଛିବେ?",
-      subheading: "ଶରତ କରଣଙ୍କ ସଚ୍ଚୋଟ କାରିଗରୀ, ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍ ଏବଂ ଘରର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ସୁବିଧା।",
+      subheading: "କୃଷ୍ଣ କରଣଙ୍କ ସଚ୍ଚୋଟ କାରିଗରୀ, ୩୦୪ ଗ୍ରେଡ୍ ଷ୍ଟିଲ୍ ଏବଂ ଘରର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ ସୁବିଧା।",
       items: [
         {
           title: "ନୂଆ ଘରର ସମ୍ପୂର୍ଣ୍ଣ କଣ୍ଟ୍ରାକ୍ଟ",
@@ -362,12 +362,12 @@ export const translations = {
           description: "କେବଳ ଅସଲି ଷ୍ଟେନଲେସ୍ ଷ୍ଟିଲ୍ ବ୍ୟବହାର କରାଯାଏ, ଯାହା ଜୀବନସାରା କଦାପି କଳଙ୍କି ଲାଗେ ନାହିଁ।"
         },
         {
-          title: "ଶରତ କରଣଙ୍କ ଦ୍ୱାରା ନିଜେ ସାଇଟ୍ ମାପ",
+          title: "କୃଷ୍ଣ କରଣଙ୍କ ଦ୍ୱାରା ନିଜେ ସାଇଟ୍ ମାପ",
           description: "ମାଲିକ ନିଜେ ଆପଣଙ୍କ ଘରକୁ ଯାଇ ଠିକ୍ ମାପ ନିଅନ୍ତି ଏବଂ ଉତ୍ତମ ଡିଜାଇନ୍ ପରାମର୍ଶ ଦିଅନ୍ତି।"
         },
         {
           title: "ସିଧାସଳଖ ଓ ସ୍ୱଚ୍ଛ ଦର",
-          description: "କୌଣସି ମଧ୍ୟସ୍ଥି ନାହାନ୍ତି । ପ୍ରକୃତ ଷ୍ଟିଲ୍ ଓଜନ ଓ ବର୍ଗଫୁଟ୍ ହିସାବରେ ଶରତ ଭାଇ ସୁଲଭ ମୂଲ୍ୟ ପ୍ରଦାନ କରନ୍ତି।"
+          description: "କୌଣସି ମଧ୍ୟସ୍ଥି ନାହାନ୍ତି । ପ୍ରକୃତ ଷ୍ଟିଲ୍ ଓଜନ ଓ ବର୍ଗଫୁଟ୍ ହିସାବରେ କୃଷ୍ଣ ଭାଇ ସୁଲଭ ମୂଲ୍ୟ ପ୍ରଦାନ କରନ୍ତି।"
         }
       ]
     },
@@ -377,7 +377,7 @@ export const translations = {
       subheading: "ହ୍ୱାଟସ୍ଆପ୍ ମେସେଜ୍ ଠାରୁ ଆରମ୍ଭ କରି ଘରେ ମଜବୁତ୍ ଫିଟିଂ ପର୍ଯ୍ୟନ୍ତ ଏକ ସରଳ ପଦ୍ଧତି।",
       steps: [
         { step: "01", title: "ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ", desc: "୮୨୬୦୭୫୦୫୪୬ ରେ ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ ବା କଲ୍ କରି ଆପଣଙ୍କ କାମ ଜଣାନ୍ତୁ।" },
-        { step: "02", title: "ସାଇଟ୍ ପରିଦର୍ଶନ ଓ ମାପ", desc: "ଶରତ କରଣ ନିଜେ ଯାଇ ଠିକ୍ ମାପ ନେବେ ଏବଂ ଚୌକାଠ ଯାଞ୍ଚ କରିବେ।" },
+        { step: "02", title: "ସାଇଟ୍ ପରିଦର୍ଶନ ଓ ମାପ", desc: "କୃଷ୍ଣ କରଣ ନିଜେ ଯାଇ ଠିକ୍ ମାପ ନେବେ ଏବଂ ଚୌକାଠ ଯାଞ୍ଚ କରିବେ।" },
         { step: "03", title: "ଡିଜାଇନ୍ ଓ ଦର ଚୂଡ଼ାନ୍ତ", desc: "ଷ୍ଟିଲ୍ ଗ୍ରେଡ୍, ଲେଜର ସିଟ୍, କଲର ପସନ୍ଦ କରି ବ୍ୟକ୍ତିଗତ କୋଟେସନ୍ ସ୍ଥିର ହେବ।" },
         { step: "04", title: "ୱାର୍କସପ୍‌ରେ ନିର୍ମାଣ", desc: "ନିର୍ଭୁଲ କଟିଂ, ଆର୍ଗନ୍ ୱେଲ୍ଡିଂ ଓ ଚମକଦାର ମିରର୍ ପଲିସିଂ ସହିତ ନିର୍ମାଣ।" },
         { step: "05", title: "ସ୍ଥାୟୀ ଫିଟିଂ", desc: "ଆପଣଙ୍କ ଘରେ ଦୃଢ଼ ୱେଲ୍ଡିଂ ଓ ବୋଲ୍ଟିଂ ସହ ଆଜୀବନ ସୁରକ୍ଷା ପ୍ରଦାନ।" }
@@ -385,7 +385,7 @@ export const translations = {
     },
     contact: {
       badge: "ସିଧାସଳଖ ଯୋଗାଯୋଗ",
-      heading: "ଶରତ କରଣଙ୍କ ସହ ଯୋଗାଯୋଗ",
+      heading: "କୃଷ୍ଣ କରଣଙ୍କ ସହ ଯୋଗାଯୋଗ",
       subheading: "ଯେକୌଣସି ଫ୍ୟାବ୍ରିକେସନ୍ କାମ ବା ଘର କଣ୍ଟ୍ରାକ୍ଟ ପାଇଁ କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନକୁ କଲ୍ ବା ହ୍ୱାଟସ୍ଆପ୍ କରନ୍ତୁ।",
       shopTitle: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ ୱାର୍କସପ୍",
       ownerTitle: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ କଣ୍ଟ୍ରାକ୍ଟର",
@@ -397,20 +397,20 @@ export const translations = {
       whatsappBtn: "ହ୍ୱାଟସ୍ଆପ୍‌ରେ କଥା ହୁଅନ୍ତୁ"
     },
     footer: {
-      tagline: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ (Krushna Fabrication) • ମାଲିକ: ଶରତ କରଣ • ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା।",
+      tagline: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ (Krushna Fabrication) • ମାଲିକ: କୃଷ୍ଣ କରଣ • ବିଧାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା।",
       quickLinks: "କ୍ୱିକ୍ ଲିଙ୍କ୍",
       contactUs: "ଯୋଗାଯୋଗ",
       backToTop: "ଉପରକୁ ଯାଆନ୍ତୁ",
-      copyright: "© ୨୦୨୬ କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ। ସର୍ବସ୍ୱତ୍ୱ ସଂରକ୍ଷିତ। ପରିଚାଳକ: ଶରତ କରଣ।"
+      copyright: "© ୨୦୨୬ କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ। ସର୍ବସ୍ୱତ୍ୱ ସଂରକ୍ଷିତ। ପରିଚାଳକ: କୃଷ୍ଣ କରଣ।"
     },
     mobileBar: {
       call: "କଲ୍: ୮୨୬୦୭୫୦୫୪୬",
       whatsapp: "ହ୍ୱାଟସ୍ଆପ୍ ଆବଶ୍ୟକତା"
     },
     whatsappMsgs: {
-      general: "ନମସ୍କାର ଶରତ ଭାଇ (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ), ମୁଁ ଘରର ଷ୍ଟିଲ୍ ଗେଟ୍ / ଗ୍ରୀଲ୍ / କବାଟ କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।",
+      general: "ନମସ୍କାର କୃଷ୍ଣ ଭାଇ (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ), ମୁଁ ଘରର ଷ୍ଟିଲ୍ ଗେଟ୍ / ଗ୍ରୀଲ୍ / କବାଟ କାମ ପାଇଁ ଆଲୋଚନା କରିବାକୁ ଚାହୁଁଛି।",
       requirement: "*କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ - କାର୍ଯ୍ୟ ଆବଶ୍ୟକତା*\n*ନାମ:* {name}\n*ଫୋନ୍:* {phone}\n*ଗ୍ରାମ/ଅଞ୍ଚଳ:* {location}\n*ଆବଶ୍ୟକ କାମ:* {works}\n*ବିବରଣୀ:* {details}",
-      directOwner: "ନମସ୍କାର ଶରତ ଭାଇ, ଆମ ଘରେ ସାଇଟ୍ ମାପ ନେବା ଓ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ଆଲୋଚନା ପାଇଁ ଆପଣଙ୍କୁ ନିମନ୍ତ୍ରଣ କରୁଛି।"
+      directOwner: "ନମସ୍କାର କୃଷ୍ଣ ଭାଇ, ଆମ ଘରେ ସାଇଟ୍ ମାପ ନେବା ଓ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ଆଲୋଚନା ପାଇଁ ଆପଣଙ୍କୁ ନିମନ୍ତ୍ରଣ କରୁଛି।"
     }
   }
 };

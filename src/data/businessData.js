@@ -1,8 +1,8 @@
 /**
  * =========================================================================
  * KRUSHNA FABRICATION (କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ) - CENTRAL BUSINESS DATA
- * Owner & Contractor: Sarat Karan | Mobile & WhatsApp: 8260750546
- * Biharpur Chhak, Banapur, Odisha
+ * Owner & Contractor: Krushna Karan | Mobile & WhatsApp: 8260750546
+ * Bidharpur Chhak, Banapur, Odisha
  * =========================================================================
  */
 
@@ -24,16 +24,16 @@ export const businessData = {
     secondaryName: "Krushna Welding Workshop",
     secondaryNameOdia: "କୃଷ୍ଣ ୱେଲ୍ଡିଂ ୱାର୍କସପ୍",
     
-    ownerName: "Sarat Karan",
-    ownerNameOdia: "ଶରତ କରଣ",
+    ownerName: "Krushna Karan",
+    ownerNameOdia: "କୃଷ୍ଣ କରଣ",
     ownerRole: "Owner & Lead Contractor",
     ownerRoleOdia: "ପ୍ରତିଷ୍ଠାତା ଓ ମୁଖ୍ୟ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟର",
 
-    cardTaglineOdia: "ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।",
-    cardTagline: "Manufacturer of all types of Steel, G.I., Aluminium & Iron Items.",
+    cardTaglineOdia: "ଏଠାରେ ଷ୍ଟିଲ, ଜି.ଆଇ., ଆଲୁମିନିୟମ, UPVC ଓ ଲୁହାର ସମସ୍ତ ସାମଗ୍ରୀ ତିଆରି କରାଯାଏ ।",
+    cardTagline: "All Types of Steel, G.I., Aluminium, UPVC & Iron Works",
 
     contractNotice: "We undertake complete building and house fabrication contracts. Submit your requirements or call us for free site measurement & individual quotation.",
-    contractNoticeOdia: "ନୂଆ ଘର ତଥା ବିଲ୍ଡିଂ ନିର୍ମାଣ ପାଇଁ ସମସ୍ତ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନିଆଯାଏ । ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ, ଶରତ କରଣ ନିଜେ ସାଇଟ୍‌କୁ ଯାଇ ମାପ ନେଇ ଉଚିତ୍ ଦର ଜଣାଇବେ ।",
+    contractNoticeOdia: "ନୂଆ ଘର ତଥା ବିଲ୍ଡିଂ ନିର୍ମାଣ ପାଇଁ ସମସ୍ତ ଫ୍ୟାବ୍ରିକେସନ୍ କଣ୍ଟ୍ରାକ୍ଟ ନିଆଯାଏ । ଆପଣଙ୍କ ଆବଶ୍ୟକତା ଜଣାନ୍ତୁ, କୃଷ୍ଣ କରଣ ନିଜେ ସାଇଟ୍‌କୁ ଯାଇ ମାପ ନେଇ ଉଚିତ୍ ଦର ଜଣାଇବେ ।",
 
     // Primary Contacts
     phone: "+91 82607 50546",
@@ -41,9 +41,9 @@ export const businessData = {
     whatsapp: "+91 82607 50546",
     whatsappRaw: "918260750546",
 
-    location: "Biharpur Chhak, Banapur, Odisha, India",
-    locationOdia: "ବିହାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା",
-    addressFull: "Krushna Fabrication Workshop, Biharpur Chhak, Banapur, Khordha District, Odisha - 752031",
+    location: "Bidharpur Chhak, Banapur, Odisha, India",
+    locationOdia: "ବିଧାରପୁର ଛକ, ବାଣପୁର, ଓଡ଼ିଶା",
+    addressFull: "Krushna Fabrication Workshop, Bidharpur Chhak, Banapur, Khordha District, Odisha - 752031",
 
     businessHours: {
       days: "Monday – Sunday: 8:00 AM – 8:30 PM",
@@ -197,14 +197,14 @@ export const businessData = {
     },
     {
       id: "cat-5",
-      title: "Owner Sarat Karan with Gate & Window Grill on Site",
-      titleOdia: "ସାଇଟ୍‌ରେ ମାଲିକ ଶରତ କରଣ (ମୟୂର ଏନଗ୍ରେଭିଂ ଗେଟ୍)",
+      title: "Owner Krushna Karan with Gate & Window Grill on Site",
+      titleOdia: "ସାଇଟ୍‌ରେ ମାଲିକ କୃଷ୍ଣ କରଣ (ମୟୂର ଏନଗ୍ରେଭିଂ ଗେଟ୍)",
       category: "Steel Gates",
       categoryOdia: "ଷ୍ଟିଲ୍ ଗେଟ୍",
       material: "Grade 304 SS with Shubh Labh & Peacock laser cut sheet",
       materialOdia: "ଶୁଭ ଲାଭ ଓ ମୟୂର ଲେଜର କଟିଂ ଏସ୍‌ଏସ୍ ସିଟ୍",
       image: ownerPhoto,
-      badge: "Owner Sarat Karan"
+      badge: "Owner Krushna Karan"
     },
     {
       id: "cat-6",
@@ -212,8 +212,8 @@ export const businessData = {
       titleOdia: "କୃଷ୍ଣ ଫ୍ୟାବ୍ରିକେସନ ମୁଖ୍ୟ ୱାର୍କସପ୍ ଓ ଶପ୍",
       category: "Workshop",
       categoryOdia: "ୱାର୍କସପ୍",
-      material: "Biharpur Chhak, Banapur workshop with pipes & materials ready",
-      materialOdia: "ବିହାରପୁର ଛକ, ବାଣପୁରସ୍ଥିତ ଆମ ମୁଖ୍ୟ ୱାର୍କସପ୍",
+      material: "Bidharpur Chhak, Banapur workshop with pipes & materials ready",
+      materialOdia: "ବିଧାରପୁର ଛକ, ବାଣପୁରସ୍ଥିତ ଆମ ମୁଖ୍ୟ ୱାର୍କସପ୍",
       image: shopExterior,
       badge: "Our Shop"
     }
@@ -225,7 +225,7 @@ export const businessData = {
  */
 export const getWhatsAppLink = (customMessage = "") => {
   const baseNumber = businessData.info.whatsappRaw;
-  const defaultMsg = `Hello Sarat Bhai (Krushna Fabrication), I want to discuss Steel Gate / Grill / Door / Railing work for my house.`;
+  const defaultMsg = `Hello Krushna Bhai (Krushna Fabrication), I want to discuss Steel Gate / Grill / Door / Railing work for my house.`;
   const text = encodeURIComponent(customMessage || defaultMsg);
   return `https://wa.me/${baseNumber}?text=${text}`;
 };

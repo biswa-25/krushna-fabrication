@@ -39,7 +39,7 @@ export default function Footer() {
                   {language === 'or' ? info.nameOdia : info.name}
                 </span>
                 <span className="text-xs text-spark-gold font-bold block">
-                  {language === 'or' ? "ମାଲିକ: ଶରତ କରଣ" : "Owner: Sarat Karan"}
+                  {language === 'or' ? `ମାଲିକ: ${info.ownerNameOdia}` : `Owner: ${info.ownerName}`}
                 </span>
               </div>
             </div>
